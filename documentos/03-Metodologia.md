@@ -15,8 +15,8 @@ A equipe utiliza o Scrum como base para definição do processo de desenvolvimen
 
 - Scrum Master: Vitor Galinari
 - Product Owner: Pedro Nogueira
-- Equipe de Desenvolvimento: Bruna Fachola de Oliveira, Isadora Luisa Novy Lara, José Carlos Batista Silva, Pedro Flávio Ferreira Nogueira, Samuel Filipe Nogueira dos Santos e Vitor Abi-Acl Simões Galinari
-- Equipe de Design: Bruna Fachola de Oliveira, Isadora Luisa Novy Lara, José Carlos Batista Silva, Pedro Flávio Ferreira Nogueira, Samuel Filipe Nogueira dos Santos e Vitor Abi-Acl Simões Galinari
+- Equipe de Desenvolvimento: Bruna Oliveira, Isadora Lara, José Carlos Batista, Pedro Nogueira, Samuel Santos e Vitor Galinari
+- Equipe de Design: Bruna Oliveira, Isadora Lara, José Carlos Batista, Pedro Nogueira, Samuel Santos e Vitor Galinari
 
 ### Processo
 
