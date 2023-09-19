@@ -1,6 +1,12 @@
 # Introdução
 
-[Aqui a equipe deve criar um texto descritivo com a visão geral do problema abordado, apresentando o ambiente e as situações envolvidas no problema.]
+ Nos tempos atuais, a população global está cada vez mais empenhada em encontrar maneiras de otimizar a gestão do tempo e alcançar economias significativas. Isso abrange diversas esferas da vida, desde o ambiente de trabalho até os momentos de lazer, concentrando-se especialmente em atividades que, embora necessárias, podem consumir uma parcela considerável do dia, como a rotina de compras. 
+
+ É inegável o tempo que muitas vezes se perde ao vagar pelas prateleiras e corredores, sem uma ideia clara do que se precisa. Embora seja ocasionalmente interessante explorar as novidades do mercado, esse tipo de exploração pode ser dispendioso em termos de tempo quando, em vez disso, poderíamos entrar, adquirir exatamente o que consta em nossa lista e sair rapidamente. 
+
+ A solução para esse dilema é simples: planejamento prévio. Elaborar uma lista de compras antes de visitar o supermercado traz vantagens além das finanças, também poupando preciosos minutos. Assim, planejar não se torna apenas uma tarefa relevante, mas uma prática fundamental para o consumidor, impedindo o excesso de gastos e a perda de tempo em busca de produtos entre corredores e prateleiras. 
+
+ Diante dessa perspectiva, surge um método altamente eficaz para economizar tempo e dinheiro: a elaboração prévia de listas de produtos e a definição de um limite de gastos antes da ida ao supermercado. Essa abordagem não apenas simplifica o processo de compra, mas também garante que aproveitemos ao máximo cada instante.
 
 ## Problema
 [Aqui a equipe deve fornecer uma descrição detalhada do problema a ser resolvido. Não é o momento adequado para abordar questões técnicas relacionadas ao desenvolvimento da aplicação. O objetivo é compreender e comunicar de maneira precisa qual é o desafio ou necessidade que motiva a criação da aplicação.]
