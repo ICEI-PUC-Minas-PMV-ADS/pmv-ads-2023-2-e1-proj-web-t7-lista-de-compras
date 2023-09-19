@@ -7,7 +7,7 @@
 
 `Eixo 1`
 
-O projeto consiste no desenvolvimento de uma aplicação Web que permita gerenciar uma lista de compras para alcançar uma maior eficiência de tempo e economia, onde o consumidor pode relatar os produtos que deseja comprar e relatar o valor máximo disponível para a compra. Também será possível consultar o histórico das listas de compras anteriores para possível comparação.
+O projeto consiste no desenvolvimento de uma aplicação Web que permita gerenciar uma lista de compras para alcançar uma maior eficiência de tempo e economia, onde o consumidor pode relatar os produtos que deseja comprar e o valor máximo disponível para a compra. Também será possível consultar o histórico das listas de compras anteriores para possível comparação.
 
 ## Integrantes
 
