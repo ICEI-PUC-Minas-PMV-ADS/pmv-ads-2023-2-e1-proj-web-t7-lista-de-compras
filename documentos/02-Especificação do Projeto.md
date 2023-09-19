@@ -43,8 +43,6 @@
 
 ### Requisitos não Funcionais
 
-[Utilize o modelo de tabela abaixo para apresentar os requisitos não-funcionais]
-
 |ID      | Descrição               |Prioridade |
 |--------|-------------------------|----|
 | RNF-01 |  A aplicação deve ser responsiva para adaptar-se às telas de tablets e smartphones                   | Alta   | 
