@@ -51,5 +51,5 @@
 | RNF-02 |  A aplicação deve ser intuitiva para pessoas sem experiência             | Média   | 
 | RNF-03 |  O sistema deve ser desenvolvido somente em HTML, CSS e Javascript                        |  Alta      |
 | RNF-04 |  O sistema deve estar em conformidade com as regulamentações estabelecidas pela Lei Geral de Proteção de Dados (LGPD).                        |  Alta      |
-**Prioridade: Alta / Média / Baixa. 
+
 
