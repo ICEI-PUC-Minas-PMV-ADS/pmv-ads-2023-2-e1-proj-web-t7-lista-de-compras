@@ -1,26 +1,26 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/teYJD0R3)
 # Título do Projeto
 
-`CURSO`
+`Tecnologia em Análise e Desenvolvimento de Sistemas`
 
-`DISCIPLINA`
+`Projeto: Desenvolvimento de Aplicação Web Front-End`
 
-`SEMESTRE`
+`Eixo 1`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto desenvolvido.
+O projeto consiste no desenvolvimento de uma aplicação Web que permita gerenciar uma lista de compras para alcançar uma maior eficiência de tempo e economia, onde o consumidor pode relatar os produtos que deseja comprar e relatar o valor máximo disponível para a compra. Também será possível consultar o histórico das listas de compras anteriores para possível comparação.
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
-* Nome completo do aluno 5
-* Nome completo do aluno 6
+* Bruna Fachola de Oliveira
+* Isadora Luisa Novy Lara 
+* José Carlos Batista Silva 
+* Pedro Flávio Ferreira Nogueira 
+* Samuel Filipe Nogueira dos Santos 
+* Vitor Abi-Acl Simões Galinari  
 
 ## Orientador
 
-* Nome completo do professor
+* Marcos André Silveira Kutova
 
 # Documentação
 
