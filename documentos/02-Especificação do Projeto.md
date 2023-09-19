@@ -32,14 +32,14 @@
 
 ### Requisitos Funcionais
 
-|ID    | Descrição                | Prioridade |
-|-------|---------------------------------|----|
-| RF-01 | O sistema deve permitir adicionar valor limite para gastos  | Média | 
-| RF-02 | O sistema deve permitir adicionar produtos a lista                    | Alta   |
-| RF-03 | O sistema deve permitir buscar os produtos pela sua categoria                 | Alta   |
-| RF-04 | O sistema deve permitir adicionar a quantidade de um determinado produto                    | Alta |
-| RF-05 | O sistema deve permitir consultar o saldo disponível de acordo com o valor limite                    | Média |
-| RF-06 | O usuário deve poder consultar um histórico recente de compras             | Baixa   |
+|ID       | Descrição                | Prioridade |
+|---------|---------------------------------|----|
+| RF-01   | O sistema deve permitir adicionar valor limite para gastos  | Média | 
+| RF-02   | O sistema deve permitir adicionar produtos a lista                    | Alta   |
+| RF-03   | O sistema deve permitir buscar os produtos pela sua categoria                 | Alta   |
+| RF-04   | O sistema deve permitir adicionar a quantidade de um determinado produto                    | Alta |
+| RF-05   | O sistema deve permitir consultar o saldo disponível de acordo com o valor limite                    | Média |
+| RF-06   | O usuário deve poder consultar um histórico recente de compras             | Baixa   |
 
 ### Requisitos não Funcionais
 
