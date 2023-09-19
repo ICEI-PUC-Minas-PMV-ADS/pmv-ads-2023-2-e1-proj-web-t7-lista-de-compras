@@ -41,8 +41,6 @@
 | RF-05 | O sistema deve permitir consultar o saldo disponível de acordo com o valor limite                    | Média |
 | RF-06 | O usuário deve poder consultar um histórico recente de compras             | Baixa   |
 
-**Prioridade: Alta / Média / Baixa. 
-
 ### Requisitos não Funcionais
 
 [Utilize o modelo de tabela abaixo para apresentar os requisitos não-funcionais]
