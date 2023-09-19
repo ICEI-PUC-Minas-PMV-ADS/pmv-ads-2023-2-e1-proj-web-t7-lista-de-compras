@@ -2,20 +2,18 @@
 
 ## Perfis de Usuários
 
-[Enumere e faça o detalhamento dos perfis de usuários. Utilize o modelo de tabela abaixo para sintetizá-los.]
-
 <table>
 <tbody>
 <tr align=center>
-<th colspan="2">Perfil Nome </th>
+<th colspan="2">Consumidores </th>
 </tr>
 <tr>
 <td width="150px"><b>Descrição</b></td>
-<td width="600px">...</td>
+<td width="600px">Mulheres e homens, entre 20 e 60 anos, encarregados das compras familiares.</td>
 </tr>
 <tr>
 <td><b>Necessidades</b></td>
-<td>...</td>
+<td>Facilitar a organização da lista de compras e o controle financeiro da casa.</td>
 </tr>
 </tbody>
 </table>
@@ -23,17 +21,12 @@
 
 ## Histórias de Usuários
 
-[Apresente aqui as histórias de usuários que são relevantes para o projeto da solução.]
-
-> **Link Útil**:
-> - [Como escrever boas histórias de usuário](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-
-[Utilize o modelo de tabela abaixo para apresentar as histórias de usuários.]
-
-|EU COMO... `QUEM`   | QUERO/PRECISO ... `O QUE` |PARA ... `PORQUE`                 |
-|--------------------|---------------------------|----------------------------------|
-| ...                | ...                       | ...                              |
-| ...                | ...                       | ...                              |
+|EU COMO... `QUEM`   |           QUERO/PRECISO ... `O QUE`          |       PARA ... `PORQUE`          |
+|--------------------|----------------------------------------------|----------------------------------|
+| Eu como consumidor | gerenciar uma lista de compras               | registrar os produtos que desejo comprar                                  |
+| Eu como consumidor |ver os produtos adicionados e suas categorias | diminuir o tempo procurando pelo supermercado                             |
+| Eu como consumidor | ver o valor dos produtos adicionad           | não extrapolar o orçamento                                                |
+| Eu como consumidor | consultar minhas últimas listas de compra    |visualizar quais produtos compro com frequência                            |
 
 ## Requisitos do Projeto
 
