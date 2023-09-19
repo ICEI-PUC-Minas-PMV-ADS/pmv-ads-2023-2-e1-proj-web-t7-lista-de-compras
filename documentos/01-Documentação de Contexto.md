@@ -9,9 +9,8 @@
  Diante dessa perspectiva, surge um método altamente eficaz para economizar tempo e dinheiro: a elaboração prévia de listas de produtos e a definição de um limite de gastos antes da ida ao supermercado. Essa abordagem não apenas simplifica o processo de compra, mas também garante que aproveitemos ao máximo cada instante.
 
 ## Problema
-[Aqui a equipe deve fornecer uma descrição detalhada do problema a ser resolvido. Não é o momento adequado para abordar questões técnicas relacionadas ao desenvolvimento da aplicação. O objetivo é compreender e comunicar de maneira precisa qual é o desafio ou necessidade que motiva a criação da aplicação.]
 
-Este link pode ajudar a equipe a entender mais sobre definição do problema: [Objetivos, Problema de pesquisa e Justificativa.](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
+Realizar uma ida ao supermercado sem um planejamento prévio resulta em desperdício de tempo e gastos desnecessários para o consumidor.
 
 
 ## Objetivos
