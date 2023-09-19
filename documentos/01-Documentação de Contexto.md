@@ -22,20 +22,19 @@ O objetivo é desenvolver uma aplicação Web que permita gerenciar uma lista de
 
 ## Justificativa
 
-[Aqui a equipe deve descrever a importância ou a motivação para trabalhar com o problema definido. Indique as razões pelas quais a equipe escolheu o problema e definiu os objetivos.
-
-Devem ser apresentados dados de fontes relevantes e confiáveis sobre o problema, inserindo-o como alvo de estudo. Sugere-se que a equipe utilize questionários, entrevistas e dados estatísticos, que devem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pela equipe.]
-
-Este link pode ajudar a equipe a formular a justificativa: [Como montar a justificativa.](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+A falta de controle financeiro pode levar ao aumento do endividamento dos consumidores, com a compra por impulso sendo uma das principais razões. Segundo dados do Serviço de Proteção ao Crédito (SPC Brasil) e da Confederação Nacional de Dirigentes Lojistas (CNDL), 17% das compras por impulso estão relacionadas a supermercados, e 60% dos consumidores frequentemente fazem compras excessivas (VEJA, 2018). Diante disso, a demanda por soluções de apoio ao consumidor é alta, criando um espaço significativo para a introdução de novos aplicativos de gerenciamento de compras.  
 
 ## Público-Alvo
 
-[Aqui é necessário descrever os atores envolvidos no problema, destacando os diferentes perfis de usuários. O propósito é apresentar as características, necessidades, conhecimentos prévios e experiência com a tecnologia do público-alvo.
+Nosso público-alvo é a População Economicamente Ativa (PEA) do Brasil, com foco principal em mulheres. De acordo com o estudo E-Commerce On (LEITE, 2019), da Kantar, e informações do G1 (THIELMANN, 2014), Jornal da Globo, as mulheres representam a maioria dos consumidores de mercados em geral, enquanto os homens têm preferência por supermercados online.  Considerando o elevado grau de familiaridade com a tecnologia e a extensa facilidade no manuseio de smartphones e navegadores, a aplicação é direcionada ao público consumidor de faixa etária entre 20 e 60 anos. 
 
-Sugere-se que a equipe utilize questionários e/ou entrevistas a fim de conhecer os atores que compõem o público alvo.]
+## Trabalhos Relacinados
 
-Os links abaixo podem ajudar a equipe a conhecer um pouco mais sobre o público-alvo. 
+[Bring!](https://web.getbring.com/login): O Bring! é um aplicativo bastante dinâmico, onde o usuário consegue criar as listas que deseja, personalizando-as com as imagens disponibilizadas no app, ou adicionando ao seu perfil as sugestões oferecidas na página inicial. 
 
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
+[SoftList](https://play.google.com/store/apps/details?id=br.com.ridsoftware.shoppinglist&hl=pt_BR&gl=US&pli=1): O SoftList tem funcionalidades bem interessantes. Nele o consumidor também consegue criar várias listas, sendo que os produtos podem ser adicionados de duas formas: em uma listagem completa, dividida por categorias, ou um por um, inserindo já a quantidade e o preço. 
+
+[Listonic](https://app.listonic.com/lists): Assim como o SoftList, o app mostra o valor geral da lista, e, conforme o usuário marca check nos produtos adicionados ao carrinho, a plataforma atualiza para mostrar o valor da compra real, com os produtos já marcados. 
+
+[Lista de Compras Rápida & Fácil](https://play.google.com/store/apps/details?id=com.wgpapps.quickeasyshoppinglist): No aplicativo o consumidor consegue criar uma lista para cada objetivo e nela adicionar os produtos que deseja para aquela compra específica, definindo a quantidade e o valor de cada item. 
 
