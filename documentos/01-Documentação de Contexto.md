@@ -15,9 +15,10 @@ Realizar uma ida ao supermercado sem um planejamento prévio resulta em desperd�
 
 ## Objetivos
 
-[Aqui a equipe deve realizar uma descrição detalhada dos objetivos do trabalho, ressaltando quais as questões principais do problema a serem resolvidas pelo projeto, não é a hora de apresentar requisitos detalhados.]
- 
-Este link pode ajudar a equipe a entender mais sobre definição dos objetivos: [Objetivos, Problema de pesquisa e Justificativa.](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
+O objetivo é desenvolver uma aplicação Web que permita gerenciar uma lista de compras para alcançar uma maior eficiência em tempo e economia, de uma forma mais específica podemos citar:  
+* Controle de Gastos Inteligente: Melhorar a eficiência nas compras, permitindo um controle mais inteligente de gastos ao criar listas organizadas e evitar compras impulsivas.
+*  Organização por Categorias: A organização por categorias agiliza a busca de produtos, economizando tempo. 
+* Otimização do Tempo: Ao otimizar o processo, a aplicação libera tempo para outras atividades, promovendo uma experiência de compras mais eficaz e controlada. 
 
 ## Justificativa
 
