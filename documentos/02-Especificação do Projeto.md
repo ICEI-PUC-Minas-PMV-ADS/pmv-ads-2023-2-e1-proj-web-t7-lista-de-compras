@@ -21,7 +21,7 @@
 
 ## Histórias de Usuários
 
-|EU COMO... `QUEM`   |           QUERO/PRECISO ... `O QUE`          |       PARA ... `PORQUE`          |
+|EU COMO...          |           QUERO/PRECISO ...                  |             PARA ...             |
 |--------------------|----------------------------------------------|----------------------------------|
 | Eu como consumidor | gerenciar uma lista de compras               | registrar os produtos que desejo comprar                                  |
 | Eu como consumidor |ver os produtos adicionados e suas categorias | diminuir o tempo procurando pelo supermercado                             |
@@ -30,16 +30,16 @@
 
 ## Requisitos do Projeto
 
-[Com base nas Histórias de Usuários, enumere os requisitos da solução. Lembre-se que cada requisito deve corresponder a uma, e somente uma, característica alvo da solução. Além disso, certifique-se de que todos os aspectos capturados nas Histórias de Usuário foram cobertos.]
-
 ### Requisitos Funcionais
-
-[Utilize o modelo de tabela abaixo para apresentar os requisitos funcionais]
 
 |ID    | Descrição                | Prioridade |
 |-------|---------------------------------|----|
-| RF-01 |  ...                    | ...   | 
-|  ...  |  ...                    | ...   |
+| RF-01 | O sistema deve permitir adicionar valor limite para gastos  | Média | 
+| RF-02 | O sistema deve permitir adicionar produtos a lista                    | Alta   |
+| RF-03 | O sistema deve permitir buscar os produtos pela sua categoria                 | Alta   |
+| RF-04 | O sistema deve permitir adicionar a quantidade de um determinado produto                    | Alta |
+| RF-05 | O sistema deve permitir consultar o saldo disponível de acordo com o valor limite                    | Média |
+| RF-06 | O usuário deve poder consultar um histórico recente de compras             | Baixa   |
 
 **Prioridade: Alta / Média / Baixa. 
 
