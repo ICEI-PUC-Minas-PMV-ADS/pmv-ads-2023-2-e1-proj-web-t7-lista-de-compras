@@ -22,7 +22,7 @@
 ## Histórias de Usuários
 
 |EU COMO...          |           QUERO/PRECISO ...                  |             PARA ...             |
-|--------------------|----------------------------------------------|----------------------------------|
+|:--------------------:|:----------------------------------------------:|:----------------------------------:|
 | Eu como consumidor | gerenciar uma lista de compras               | registrar os produtos que desejo comprar                                  |
 | Eu como consumidor |ver os produtos adicionados e suas categorias | diminuir o tempo procurando pelo supermercado                             |
 | Eu como consumidor | ver o valor dos produtos adicionad           | não extrapolar o orçamento                                                |
@@ -33,7 +33,7 @@
 ### Requisitos Funcionais
 
 |ID       | Descrição                | Prioridade |
-|---------|---------------------------------|----|
+|:---------:|:---------------------------------:|:----:|
 | RF-01   | O sistema deve permitir adicionar valor limite para gastos  | Média | 
 | RF-02   | O sistema deve permitir adicionar produtos a lista                    | Alta   |
 | RF-03   | O sistema deve permitir buscar os produtos pela sua categoria                 | Alta   |
@@ -44,10 +44,10 @@
 ### Requisitos não Funcionais
 
 |ID      | Descrição               |Prioridade |
-|--------|-------------------------|----|
-| RNF-01 |  A aplicação deve ser responsiva para adaptar-se às telas de tablets e smartphones                   | Alta   | 
-| RNF-02 |  A aplicação deve ser intuitiva para pessoas sem experiência             | Média   | 
-| RNF-03 |  O sistema deve ser desenvolvido somente em HTML, CSS e Javascript                        |  Alta      |
-| RNF-04 |  O sistema deve estar em conformidade com as regulamentações estabelecidas pela Lei Geral de Proteção de Dados (LGPD).                        |  Alta      |
+|:---:|:---:|:---:|
+| RNF-01   |  A aplicação deve ser responsiva para adaptar-se às telas de tablets e smartphones                   | Alta   | 
+| RNF-02   |  A aplicação deve ser intuitiva para pessoas sem experiência             | Média   | 
+| RNF-03   |  O sistema deve ser desenvolvido somente em HTML, CSS e Javascript                        |  Alta      |
+| RNF-04   |  O sistema deve estar em conformidade com as regulamentações estabelecidas pela Lei Geral de Proteção de Dados (LGPD).                        |  Alta      |
 
 
