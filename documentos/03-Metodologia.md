@@ -20,18 +20,30 @@ A equipe utiliza o Scrum como base para definição do processo de desenvolvimen
 
 ### Processo
 
-[Adicione informações sobre detalhes da implementação do Scrum seguido pela equipe. A equipe poderá fazer uso de ferramentas on-line (GitHub Project ou Trello) para acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução. O quadro Kanban deverá apresentar a estrutura abaixo. Inserir despois das informações uma imagem do Kanban do projeto.]
-- Backlog: recebe as tarefas a serem trabalhadas e representa o Product Backlog. Todas as atividades identificadas no decorrer do projeto também devem ser incorporadas a esta lista. 
-- To Do: Esta lista representa o Sprint Backlog. Este é o Sprint atual que estamos trabalhando. 
-- Doing: Quando uma tarefa tiver sido iniciada, ela é movida para cá. 
-- Done: nesta lista são colocadas as tarefas que passaram pelos testes e controle de qualidade e estão prontos para ser entregues ao usuário. Não há mais edições ou revisões necessárias, ele está agendado e pronto para a ação.
+Product Backlog:
 
-> **Links Úteis**:
-> - [Project management, made simple](https://github.com/features/project-management/)
-> - [Sobre quadros de projeto](https://docs.github.com/pt/github/managing-your-work-on-github/about-project-boards)
-> - [Como criar Backlogs no Github](https://www.youtube.com/watch?v=RXEy6CFu9Hk)
-> - [Tutorial Slack](https://slack.com/intl/en-br/)
+**Sprint 1**
 
+- Documentação de Contexto. 
+- Especificação do Projeto. 
+- Apresentação do Projeto. 
+
+Planejamento:  Escrever a introdução, definir o problema, os objetivos e o público-alvo, listar aplicações relacionadas e definir perfis de usuários e os requisitos da aplicação 
+
+Execução: Para realizar as tarefas da Sprint 1, dividimos elas entre os integrantes do grupo, porém alguns dos integrantes saíram do curso durante o processo, assim, tivemos que reorganizar as tarefas. No final realizamos toda a etapa em conjunto, em reuniões pelo Discord. 
+
+Evidências: Nessa sprint realizamos a documentação de contexto e especificação do projeto utilizando a ferramenta Word em conjunto e também realizamos a apresentação dos slides utilizando o Canva. 
+
+**Sprint 2**
+
+- Metodologia. 
+- Projeto de Interface. 
+ 
+Planejamento:  Realizar a divisão de papéis da equipe, descrever o processo e as ferramentas utilizadas até o momento, definir o fluxo de usuário e projetar o protótipo da aplicação. 
+
+Execução: Até o momento nos reunimos pelo Discord e realizamos a divisão de papéis de acordo com a escolha de cada integrante, fizemos descrição do processo e projetamos o primeiro protótipo da aplicação. Durante essa fase não tivemos muitos desafios, somente uma busca pela melhor forma para se desenhar o protótipo. 
+
+Evidências: Realizamos a divisão de papéis e descrevemos os processos, além de, definirmos o primeiro protótipo. 
 
 ### Etiquetas
 <p>As tarefas são, ainda, etiquetadas em função da natureza da atividade e seguem o seguinte esquema de cores/categorias:</p>
