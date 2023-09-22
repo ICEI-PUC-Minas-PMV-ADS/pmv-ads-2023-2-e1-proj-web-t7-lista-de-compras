@@ -33,7 +33,8 @@ Planejamento:  Escrever a introdução, definir o problema, os objetivos e o pú
 
 Execução: Para realizar as tarefas da Sprint 1, dividimos elas entre os integrantes do grupo, porém alguns dos integrantes saíram do curso durante o processo, assim, tivemos que reorganizar as tarefas. No final realizamos toda a etapa em conjunto, em reuniões pelo Discord. 
 
-Evidências: <figure> 
+Evidências: 
+<figure> 
   <img src="documentos/img/Etapa.png"
     <figcaption>Figura 1 - Issues Etapa 1</figcaption>
 </figure> 
