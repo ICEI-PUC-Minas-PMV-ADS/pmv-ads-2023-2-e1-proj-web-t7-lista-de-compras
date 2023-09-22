@@ -35,7 +35,7 @@ Execução: Para realizar as tarefas da Sprint 1, dividimos elas entre os integr
 
 Evidências: 
 <figure> 
-  <img src="documentos/img/Etapa.png"
+  <img src="/documentos/img/Etapa.png"
     <figcaption>Figura 1 - Issues Etapa 1</figcaption>
 </figure> 
 
