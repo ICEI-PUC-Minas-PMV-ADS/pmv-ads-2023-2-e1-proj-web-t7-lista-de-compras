@@ -69,17 +69,19 @@ Evidências: Realizamos a divisão de papéis e descrevemos os processos, além 
   
 ### Ferramentas
 
-[Descreva aqui as ferramentas empregadas no projeto e os ambiente de trabalho utilizados pela  equipe para desenvolvê-lo. Abrange a relação de ambientes utilizados, a estrutura para gestão do código fonte, além da definição do processo e ferramenta através dos quais a equipe se organiza (Gestão de Times).]
+As ferramentas utilizadas para a realização do projeto foram:
+Comunicação: WhatsApp, Discord e Teams. 
+Softwares de produtividade:  Microsoft 365, Canva e Google Draw, GitHub Projects. 
 
 Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a relação dos ambientes com seu respectivo propósito é apresentada na tabela que se segue.
 
 | AMBIENTE                            | PLATAFORMA                         | LINK DE ACESSO                         |
 |-------------------------------------|------------------------------------|----------------------------------------|
-| Repositório de código fonte         | GitHub                             | http://....                            |
-| Documentos do projeto               | GitHub                             | http://....                            |
-| Projeto de Interface                | Figma                              | http://....                            |
-| Gerenciamento do Projeto            | GitHub Projects                    | http://....                            |
-| Hospedagem                          | GitHub Pages                       | http://....                            |
+| Repositório de código fonte         | GitHub                             |https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t7-lista-de-compras/tree/main/codigo-fonte                        |
+| Documentos do projeto               | GitHub                             | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t7-lista-de-compras/tree/main/documentos                           |
+| Projeto de Interface                | Canva                              |  https://www.canva.com/design/DAFuRC0YSb8/ywtUDH1Q0bU0HtjIWUoUMg/edit                           |
+| Gerenciamento do Projeto            | GitHub Projects                    |  https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/656/views/1                           |
+| Hospedagem                          | GitHub Pages                       | http://                            |
 
 
 ### Estratégia de Organização de Codificação 
