@@ -63,7 +63,7 @@ Evidências: Realizamos a divisão de papéis e descrevemos os processos, além 
 </ul>
 
 <figure> 
-  <img src="/documentos/img/Etiquetas.png"
+  <img styles="width:200px" src="/documentos/img/Etiquetas.png"
     <figcaption>Figura 3 - Tela do esquema de cores e categorias</figcaption>
 </figure> 
   
