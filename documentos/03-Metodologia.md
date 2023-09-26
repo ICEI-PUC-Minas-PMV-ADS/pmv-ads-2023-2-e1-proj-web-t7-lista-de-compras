@@ -69,8 +69,8 @@ Evidências: Realizamos a divisão de papéis e descrevemos os processos, além 
   
 ### Ferramentas
 
-As ferramentas utilizadas para a realização do projeto foram:
-Comunicação: WhatsApp, Discord e Teams. 
+As ferramentas utilizadas para a realização do projeto foram: <br/>
+Comunicação: WhatsApp, Discord e Teams. <br/>
 Softwares de produtividade:  Microsoft 365, Canva e Google Draw, GitHub Projects. 
 
 Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a relação dos ambientes com seu respectivo propósito é apresentada na tabela que se segue.
