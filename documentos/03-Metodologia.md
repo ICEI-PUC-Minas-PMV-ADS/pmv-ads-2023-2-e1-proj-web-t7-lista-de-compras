@@ -57,13 +57,13 @@ Evidências: Realizamos a divisão de papéis e descrevemos os processos, além 
   <li>Bug (Erro no código)</li>
   <li>Desenvolvimento (Development)</li>
   <li>Documentação (Documentation)</li>
-  <li>Gerência de Projetos (Project Management)</li>
+  <li>Apresentação (Apresentação do projeto)</li>
   <li>Infraestrutura (Infrastructure)</li>
   <li>Testes (Tests)</li>
 </ul>
 
 <figure> 
-  <img src="https://user-images.githubusercontent.com/100447878/164068979-9eed46e1-9b44-461e-ab88-c2388e6767a1.png"
+  <img src="/documentos/img/Etiquetas.png"
     <figcaption>Figura 3 - Tela do esquema de cores e categorias</figcaption>
 </figure> 
   
