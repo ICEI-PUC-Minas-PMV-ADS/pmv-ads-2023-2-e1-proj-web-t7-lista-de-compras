@@ -46,9 +46,13 @@ Evidências:
  
 Planejamento:  Realizar a divisão de papéis da equipe, descrever o processo e as ferramentas utilizadas até o momento, definir o fluxo de usuário e projetar o protótipo da aplicação. 
 
-Execução: Até o momento nos reunimos pelo Discord e realizamos a divisão de papéis de acordo com a escolha de cada integrante, fizemos descrição do processo e projetamos o primeiro protótipo da aplicação. Durante essa fase não tivemos muitos desafios, somente uma busca pela melhor forma para se desenhar o protótipo. 
+Execução: Nos reunimos pelo Discord e realizamos a divisão de papéis de acordo com a escolha de cada integrante. Projetamos o primeiro wireframe da aplicação que, depois de discutirmos qual seria a melhor forma para projetar as páginas, optamos por fazer um protótipo mais elaborado. Logo depois, criamos o fluxo do usuário, onde no processo sofreu muitas mudanças, pois não tínhamos definido como seria a navegação do usuário, quantas telas teríamos e se fazia sentido ter determinadas telas. No final, chegamos à conclusão de ter uma página inicial antes do acesso à lista de compras. Assim, atualizamos o fluxo do usuário e o protótipo.
 
-Evidências: Realizamos a divisão de papéis e descrevemos os processos, além de, definirmos o primeiro protótipo. 
+Evidências: 
+<figure> 
+  <img src="/documentos/img/etapa2.png"
+    <figcaption>Figura 2 - Issues Etapa 2</figcaption>
+</figure> 
 
 ### Etiquetas
 <p>As tarefas são, ainda, etiquetadas em função da natureza da atividade e seguem o seguinte esquema de cores/categorias:</p>
