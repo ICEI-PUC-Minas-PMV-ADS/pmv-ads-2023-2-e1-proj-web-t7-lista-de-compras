@@ -13,7 +13,6 @@ O projeto consiste no desenvolvimento de uma aplicação Web que permita gerenci
 
 * Bruna Fachola de Oliveira
 * Isadora Luisa Novy Lara 
-* José Carlos Batista Silva 
 * Pedro Flávio Ferreira Nogueira 
 * Samuel Filipe Nogueira dos Santos 
 * Vitor Abi-Acl Simões Galinari  
