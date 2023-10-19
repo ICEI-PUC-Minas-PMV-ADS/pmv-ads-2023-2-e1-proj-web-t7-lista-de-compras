@@ -1,36 +1,51 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./stylesListas.css">
     <title>Listas</title>
 </head>
+
 <body>
-    <div class="head"> 
+    <div class="head">
         <button class="bt">Consultar Saldo</button>
         <img id="logo" src="./logo.png" />
         <button class="bt">Finalizar Compra</button>
     </div>
     <div class="div-principal">
-        <button>Adicionar Produto </button>
-        <input/>
-        <select>
-            <option>Verdura</option>
-            <option>Higiene</option>
-            <option>Carne</option>
-            <option>Fruta</option>
-        </select>
-        <button></button>
-        <ul>
-            <li>Produto 1</li>
-            <li>Produto 2</li>
-            <li>Produto 3</li>
-            <li>Produto 4</li>
-            <li>Produto 5</li>
-        </ul>
-        
+        <button style="width: 20rem;height:3.5rem;font-size:18px;" class="bt">Adicionar Produto </button>
+        <div class="div-itens">
+            <input />
+            <select>
+                <option>Verdura</option>
+                <option>Higiene</option>
+                <option>Carne</option>
+                <option>Fruta</option>
+            </select>
+            <button></button>
+        </div>
+        <div class="div-list">
+            <div class="list">
+                <h4>Produto 1</h4>
+                <button class="trash"><img src="../Home/trash.png"/></button>
+            </div>
+            <div class="list">
+                <h4>Produto 2</h4>
+                <button class="trash"><img src="../Home/trash.png"/></button>
+            </div>
+            <div class="list">
+                <h4>Produto 3</h4>
+                <button class="trash"><img src="../Home/trash.png"/></button>
+            </div>
+            <div class="list">
+                <h4>Produto 4</h4>
+                <button class="trash"><img src="../Home/trash.png"/></button>
+            </div>
+        </div>
+
     </div>
 </body>
+
 </html>
