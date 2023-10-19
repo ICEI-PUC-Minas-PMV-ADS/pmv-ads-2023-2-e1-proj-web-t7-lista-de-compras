@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+.head {
+    background: black;
+    height: 23%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 16px;
+}
+#logo {
+    width: 15%;
+    height: 100%;
+    border-radius: 50%;
+}
+.bt {
+    background: rgb(81, 112, 255);
+    background: linear-gradient(90deg, rgba(81, 112, 255, 1) 0%, rgba(255, 86, 230, 1) 100%);
+    border: none;
+    color: white;
+    width: 9rem;
+    height: 2.5rem;
+    cursor: pointer;
+    font-size: 15px;
+    border-radius: 10px;
+}
+.bt:hover{ 
+    opacity: 0.8
+}
+.bt:active{ 
+    opacity: 0.6
+}
