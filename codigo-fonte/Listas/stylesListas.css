@@ -33,3 +33,7 @@ body {
 .bt:active{ 
     opacity: 0.6
 }
+.div-principal{
+    background: #242424;
+    height: 100%;
+}
