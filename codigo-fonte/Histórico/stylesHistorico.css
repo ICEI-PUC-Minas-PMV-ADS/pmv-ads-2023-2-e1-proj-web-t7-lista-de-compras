@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+.header {
+    background: #000000;
+    padding: 25px;
+    padding-left: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 15%;
+    color: #ffffff;
+    flex-wrap: wrap;
+    font-size: 20px;
+    margin: 0;
+}
+
+.bt {
+    background: rgb(81, 112, 255);
+    background: linear-gradient(90deg, rgba(81, 112, 255, 1) 0%, rgba(255, 86, 230, 1) 100%);
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    width: 200px;
+    padding: 15px 20px;
+    height: 40%;
+    font-size: 20px;
+}
+
+.campos-principais {
+    display: flex;
+    gap: 30px;
+    padding: 30px;
+    justify-content: center;
+}
+
+.campo-data {
+    width: 40%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
