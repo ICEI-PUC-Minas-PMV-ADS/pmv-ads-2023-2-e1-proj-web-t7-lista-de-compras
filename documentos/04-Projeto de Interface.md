@@ -24,7 +24,7 @@ Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapea
  **Tela Lista** <br/>
 
 <figure> 
-  <img src="/documentos/img/ListaAtt2.jpg"
+  <img src="/documentos/img/ListaP.jpg"
     <figcaption>Figura 3 - Página lista de compras </figcaption>
 </figure>  
 <br/>
