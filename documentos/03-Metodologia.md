@@ -15,8 +15,8 @@ A equipe utiliza o Scrum como base para definição do processo de desenvolvimen
 
 - Scrum Master: Vitor Galinari
 - Product Owner: Pedro Nogueira
-- Equipe de Desenvolvimento: Bruna Oliveira, Isadora Lara, **Pedro Nogueira**, Samuel Santos e Vitor Galinari
-- Equipe de Design: **Bruna Oliveira**, Isadora Lara, Pedro Nogueira, Samuel Santos e Vitor Galinari
+- Equipe de Desenvolvimento: Isadora Lara, **Pedro Nogueira**, Samuel Santos e Vitor Galinari
+- Equipe de Design: **Isadora Lara**, Pedro Nogueira, Samuel Santos e Vitor Galinari
 - QA: Vitor Galinari
 
 ### Processo
@@ -29,14 +29,14 @@ Product Backlog:
 - Especificação do Projeto. 
 - Apresentação do Projeto. 
 
-Planejamento:  Escrever a introdução, definir o problema, os objetivos e o público-alvo, listar aplicações relacionadas e definir perfis de usuários e os requisitos da aplicação 
+Planejamento:  Escrever a introdução, definir o problema, os objetivos e o público-alvo, listar aplicações relacionadas e definir perfis de usuários e os requisitos da aplicação. 
 
 Execução: Para realizar as tarefas da Sprint 1, dividimos elas entre os integrantes do grupo, porém alguns dos integrantes saíram do curso durante o processo, assim, tivemos que reorganizar as tarefas. No final realizamos toda a etapa em conjunto, em reuniões pelo Discord. 
 
 Evidências: 
 <figure> 
   <img src="/documentos/img/Etapa.png"
-    <figcaption>Figura 1 - Issues Etapa 1</figcaption>
+    <figcaption>Figura 1 - Issues Etapa 1.</figcaption>
 </figure> 
 
 **Sprint 2**
@@ -51,7 +51,21 @@ Execução: Nos reunimos pelo Discord e realizamos a divisão de papéis de acor
 Evidências: 
 <figure> 
   <img src="/documentos/img/etapa2.png"
-    <figcaption>Figura 2 - Issues Etapa 2</figcaption>
+    <figcaption>Figura 2 - Issues Etapa 2.</figcaption>
+</figure> 
+
+**Sprint 3**
+
+- Template da aplicação.
+
+Planejamento: Realizar a divisão de papéis para a codificação de cada página do projeto, desenvolver o template da aplicação que determina o layout padrão da solução em HTML e CSS.
+
+Execução: Uma integrante do grupo saiu do curso, então nos reorganizamos para dividir a equipe para realizar o desenvolvimento do template da aplicação, determinando o layout das páginas Home, Listas e Histórico em HTML e CSS. A página Home foi desenvolvida pelo Pedro, a Listas pela Isadora e Pedro e a Histórico pelo Vitor e Samuel. A codificação do projeto foi realizada no Visual Studio Code. Durante o desenvolvimento desta etapa, os integrantes do grupo auxiliaram uns aos outros, pelo Discord e Whatsapp.
+
+Evidências: 
+<figure> 
+  <img src="/documentos/img/etapa3.png"
+    <figcaption>Figura 3 - Issues Etapa 3.</figcaption>
 </figure> 
 
 ### Etiquetas
@@ -68,14 +82,14 @@ Evidências:
 
 <figure> 
   <img styles="width:200px" src="/documentos/img/Etiquetas.png"
-    <figcaption>Figura 3 - Tela do esquema de cores e categorias</figcaption>
+    <figcaption>Figura 4 - Tela do esquema de cores e categorias.</figcaption>
 </figure> 
   
 ### Ferramentas
 
 As ferramentas utilizadas para a realização do projeto foram: <br/>
 Comunicação: WhatsApp, Discord e Teams. <br/>
-Softwares de produtividade:  Microsoft 365, Canva e Google Draw, GitHub Projects. 
+Softwares de produtividade:  Microsoft 365, Canva e Google Draw, GitHub Projects, Visual Studio Code. 
 
 Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a relação dos ambientes com seu respectivo propósito é apresentada na tabela que se segue.
 

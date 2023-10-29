@@ -11,7 +11,6 @@ O projeto consiste no desenvolvimento de uma aplicação Web que permita gerenci
 
 ## Integrantes
 
-* Bruna Fachola de Oliveira
 * Isadora Luisa Novy Lara 
 * Pedro Flávio Ferreira Nogueira 
 * Samuel Filipe Nogueira dos Santos 
@@ -37,7 +36,7 @@ O projeto consiste no desenvolvimento de uma aplicação Web que permita gerenci
 
 # Hospedagem
 
-* Insira o endereço eletrônico público de acesso ao conteúdo publicado. 
+* [https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2023-2-e1-proj-web-t7-lista-de-compras/codigo-fonte/Home/index.html](https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2023-2-e1-proj-web-t7-lista-de-compras/codigo-fonte/Home/index.html)
 
 # Código-Fonte
 
