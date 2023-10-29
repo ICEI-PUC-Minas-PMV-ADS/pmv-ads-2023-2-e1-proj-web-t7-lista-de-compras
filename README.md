@@ -11,7 +11,6 @@ O projeto consiste no desenvolvimento de uma aplicação Web que permita gerenci
 
 ## Integrantes
 
-* Bruna Fachola de Oliveira
 * Isadora Luisa Novy Lara 
 * Pedro Flávio Ferreira Nogueira 
 * Samuel Filipe Nogueira dos Santos 
