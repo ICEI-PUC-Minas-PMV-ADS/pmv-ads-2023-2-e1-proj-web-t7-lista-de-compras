@@ -29,14 +29,14 @@ Product Backlog:
 - Especificação do Projeto. 
 - Apresentação do Projeto. 
 
-Planejamento:  Escrever a introdução, definir o problema, os objetivos e o público-alvo, listar aplicações relacionadas e definir perfis de usuários e os requisitos da aplicação 
+Planejamento:  Escrever a introdução, definir o problema, os objetivos e o público-alvo, listar aplicações relacionadas e definir perfis de usuários e os requisitos da aplicação. 
 
 Execução: Para realizar as tarefas da Sprint 1, dividimos elas entre os integrantes do grupo, porém alguns dos integrantes saíram do curso durante o processo, assim, tivemos que reorganizar as tarefas. No final realizamos toda a etapa em conjunto, em reuniões pelo Discord. 
 
 Evidências: 
 <figure> 
   <img src="/documentos/img/Etapa.png"
-    <figcaption>Figura 1 - Issues Etapa 1</figcaption>
+    <figcaption>Figura 1 - Issues Etapa 1.</figcaption>
 </figure> 
 
 **Sprint 2**
@@ -51,7 +51,7 @@ Execução: Nos reunimos pelo Discord e realizamos a divisão de papéis de acor
 Evidências: 
 <figure> 
   <img src="/documentos/img/etapa2.png"
-    <figcaption>Figura 2 - Issues Etapa 2</figcaption>
+    <figcaption>Figura 2 - Issues Etapa 2.</figcaption>
 </figure> 
 
 **Sprint 3**
@@ -65,7 +65,7 @@ Execução: Uma integrante do grupo saiu do curso, então nos reorganizamos para
 Evidências: 
 <figure> 
   <img src="/documentos/img/etapa3.png"
-    <figcaption>Figura 3 - Issues Etapa 3</figcaption>
+    <figcaption>Figura 3 - Issues Etapa 3.</figcaption>
 </figure> 
 
 ### Etiquetas
@@ -82,14 +82,14 @@ Evidências:
 
 <figure> 
   <img styles="width:200px" src="/documentos/img/Etiquetas.png"
-    <figcaption>Figura 4 - Tela do esquema de cores e categorias</figcaption>
+    <figcaption>Figura 4 - Tela do esquema de cores e categorias.</figcaption>
 </figure> 
   
 ### Ferramentas
 
 As ferramentas utilizadas para a realização do projeto foram: <br/>
 Comunicação: WhatsApp, Discord e Teams. <br/>
-Softwares de produtividade:  Microsoft 365, Canva e Google Draw, GitHub Projects. 
+Softwares de produtividade:  Microsoft 365, Canva e Google Draw, GitHub Projects, Visual Studio Code. 
 
 Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a relação dos ambientes com seu respectivo propósito é apresentada na tabela que se segue.
 
