@@ -54,6 +54,20 @@ Evidências:
     <figcaption>Figura 2 - Issues Etapa 2</figcaption>
 </figure> 
 
+**Sprint 3**
+
+- Template da aplicação.
+
+Planejamento: Realizar a divisão de papéis para a codificação de cada página do projeto, desenvolver o template da aplicação que determina o layout padrão da solução em HTML e CSS.
+
+Execução: Uma integrante do grupo saiu do curso, então nos reorganizamos para dividir a equipe para realizar o desenvolvimento do template da aplicação, determinando o layout das páginas Home, Listas e Histórico em HTML e CSS. A página Home foi desenvolvida pelo Pedro, a Listas pela Isadora e Pedro e a Histórico pelo Vitor e Samuel. A codificação do projeto foi realizada no Visual Studio Code. Durante o desenvolvimento desta etapa, os integrantes do grupo auxiliaram uns aos outros, pelo Discord e Whatsapp.
+
+Evidências: 
+<figure> 
+  <img src="/documentos/img/etapa3.png"
+    <figcaption>Figura 3 - Issues Etapa 3</figcaption>
+</figure> 
+
 ### Etiquetas
 <p>As tarefas são, ainda, etiquetadas em função da natureza da atividade e seguem o seguinte esquema de cores/categorias:</p>
 
@@ -68,7 +82,7 @@ Evidências:
 
 <figure> 
   <img styles="width:200px" src="/documentos/img/Etiquetas.png"
-    <figcaption>Figura 3 - Tela do esquema de cores e categorias</figcaption>
+    <figcaption>Figura 4 - Tela do esquema de cores e categorias</figcaption>
 </figure> 
   
 ### Ferramentas
