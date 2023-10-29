@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+.header {
+    background: #000000;
+    padding: 25px 60px 25px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 15%;
+    color: #ffffff;
+    flex-wrap: wrap;
+    font-size: 20px;
+    margin: 0;
+}
+
+.bt {
+    background: rgb(81, 112, 255);
+    background: linear-gradient(90deg, rgba(81, 112, 255, 1) 0%, rgba(255, 86, 230, 1) 100%);
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    padding: 15px 20px;
+    height: 43%;
+    font-size: 17px;
+}
+.bt:hover{ 
+    opacity: 0.8
+}
+.bt:active{ 
+    opacity: 0.6
+}
+
+.campos-principais {
+    display: flex;
+    gap: 7rem;
+    padding: 30px;
+    justify-content: center;
+    background: #242424;
+    height: 100%;
+}
+
+.campo-data {
+    width: 94%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 37px;
+    height: 3%;
+    color:#ffffff;
+    background:  #414040;
+    border: none;
+}
+.campos-listas{
+    width: 35%;
+}
+.itens{
+    background: #414040;
+    margin-bottom: 30px;
+    color: #ffffff;
+    height: 37px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+
+p{
+    font-size: 17px;
+}
+}
