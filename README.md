@@ -36,7 +36,7 @@ O projeto consiste no desenvolvimento de uma aplicação Web que permita gerenci
 
 # Hospedagem
 
-* [https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2023-2-e1-proj-web-t7-lista-de-compras/codigo-fonte/Home/index.html](https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2023-2-e1-proj-web-t7-lista-de-compras/codigo-fonte/Home/index.html)
+* [Lista de Compras](https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2023-2-e1-proj-web-t7-lista-de-compras/codigo-fonte/Home/indexHome.html)
 
 # Código-Fonte
 
