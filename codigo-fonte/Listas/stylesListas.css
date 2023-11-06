@@ -3,6 +3,7 @@ body {
     padding: 0;
     height: 100vh;
 }
+
 .head {
     background: black;
     height: 23%;
@@ -11,11 +12,13 @@ body {
     align-items: flex-start;
     padding: 16px;
 }
+
 #logo {
     width: 15%;
     height: 100%;
     border-radius: 50%;
 }
+
 .bt {
     background: rgb(81, 112, 255);
     background: linear-gradient(90deg, rgba(81, 112, 255, 1) 0%, rgba(255, 86, 230, 1) 100%);
@@ -27,13 +30,16 @@ body {
     font-size: 15px;
     border-radius: 10px;
 }
-.bt:hover{ 
+
+.bt:hover {
     opacity: 0.8
 }
-.bt:active{ 
+
+.bt:active {
     opacity: 0.6
 }
-.div-principal{
+
+.div-principal {
     background: #242424;
     height: 100%;
     display: flex;
@@ -42,38 +48,42 @@ body {
     padding-top: 40px;
     gap: 50px;
 }
-.div-itens{
+
+.div-itens {
     display: flex;
     justify-content: center;
     gap: 20px;
     width: 100%;
     height: 2rem;
 }
-.div-list{
+
+.div-list {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 15px;
 }
-.list{
+
+.list {
     background: #414040;
-    border:none;
-    color:#ffffff;
+    border: none;
+    color: #ffffff;
     border-radius: 10px;
     width: 45%;
     height: 2.5rem;
-    cursor: pointer;
-    padding: 0 10px;
+    padding: 0 12px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.trash{
+
+.trash {
     background: none;
     border: none;
     cursor: pointer;
-    }
+}
+
 .filtro-nome {
     background: #414040;
     border: none;
@@ -83,7 +93,8 @@ body {
     outline: 1px solid white;
     padding-left: 10px;
 }
-.categorias{
+
+.categorias {
     background: #414040;
     border: none;
     color: #ffffff;
@@ -91,7 +102,8 @@ body {
     width: 10%;
     padding-left: 10px;
 }
-.bt-lupa{
+
+.bt-lupa {
     background: rgb(81, 112, 255);
     background: linear-gradient(90deg, rgba(81, 112, 255, 1) 0%, rgba(255, 86, 230, 1) 100%);
     border: none;
@@ -102,16 +114,68 @@ body {
     font-size: 15px;
     border-radius: 50%;
     display: flex;
-   justify-content: center;
+    justify-content: center;
 }
-.bt-lupa:hover{ 
+
+.bt-lupa:hover {
     opacity: 0.8
 }
-.bt-lupa:active{ 
+
+.bt-lupa:active {
     opacity: 0.6
 }
-#lupa{
+
+#lupa {
     width: 30px;
     height: 100%;
     border-radius: 50%;
+}
+
+#formulario {
+    position: fixed;
+    display: none;
+    top: 10%;
+    z-index: 1;
+    background: #242424;
+    color: #ffffff;
+    border-radius: 10px;
+    padding: 20px 10px;
+    width: 21%;
+    height: 50%;
+
+    span {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        cursor: pointer;
+        cursor: pointer;
+    }
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3px;
+
+    input {
+        margin-bottom: 25px;
+        height: 25px;
+        padding-left: 5px;
+        width: 90%;
+    }
+
+    button {
+        margin-top: 30px;
+    }
+}
+
+.cat {
+    background: #414040;
+    border: none;
+    color: #ffffff;
+    border-radius: 10px;
+    padding-left: 10px;
+    width: 70%;
+    height: 25px;
 }

@@ -15,9 +15,32 @@
         <button class="bt">Finalizar Compra</button>
     </div>
     <div class="div-principal">
-        <button style="width: 20rem;height:3.5rem;font-size:18px;" class="bt">Adicionar Produto </button>
+        <button style="width: 20rem;height:3.5rem;font-size:18px;" class="bt" id="add-bt"
+            onclick="newProduct()">Adicionar Produto </button>
+
+        <div id="formulario">
+            <span onclick="closeForm()">X</span>
+            <form>
+                <label>Nome:</label>
+                <input id="name" type="text" placeholder="Suco de Caixinha" required>
+                <label>Preço Unitário:</label>
+                <input id="price" step="0.01" pattern="\d+(\.\d{1,2})?" type="number" placeholder="R$ 3,00" min="0"
+                    required>
+                <select id="select" class="cat">
+                    <option value="" disabled selected>Categoria</option>
+                    <option value="Verdura">Verdura</option>
+                    <option value="Higiene">Higiene</option>
+                    <option value="Carne">Carne</option>
+                    <option value="Fruta">Fruta</option>
+                    <option value="Bebida">Bebidas</option>
+                    <option value="Doces">Doces e Guloseimas</option>
+                    <option value="Produto de Limpeza">Produtos de Limpeza</option>
+                </select>
+                <button type="submit" class="bt" onclick="validationForm()">Salvar</button>
+            </form>
+        </div>
         <div class="div-itens">
-            <input class="filtro-nome"/>
+            <input class="filtro-nome" />
             <select class="categorias">
                 <option value="" disabled selected>Categorias</option>"
                 <option>Verdura</option>
@@ -26,28 +49,44 @@
                 <option>Fruta</option>
                 <option>Bebidas</option>
             </select>
-            <button class="bt-lupa"><img id="lupa" src="./lupa.png"/></button>
+            <button class="bt-lupa"><img id="lupa" src="./lupa.png" /></button>
         </div>
         <div class="div-list">
-            <div class="list">
-                <h4>Produto 1</h4>
-                <button class="trash"><img src="../Home/trash.png"/></button>
-            </div>
-            <div class="list">
-                <h4>Produto 2</h4>
-                <button class="trash"><img src="../Home/trash.png"/></button>
-            </div>
-            <div class="list">
-                <h4>Produto 3</h4>
-                <button class="trash"><img src="../Home/trash.png"/></button>
-            </div>
-            <div class="list">
-                <h4>Produto 4</h4>
-                <button class="trash"><img src="../Home/trash.png"/></button>
-            </div>
-        </div>
+            <script>
+                const productList = JSON.parse(localStorage.getItem('produtos'))
 
+                let containerList = document.getElementsByClassName("div-list")[0]
+
+                productList.forEach(function (product) {
+                    let productDiv = document.createElement('div')
+
+                    let produtoName = document.createElement('p');
+                    produtoName.innerHTML = product.name
+                    produtoName.id = 'nameP'
+
+                    let produtoPrice = document.createElement('p');
+                    produtoPrice.innerHTML = `R$ ${product.price}`
+
+                    let deleteProduct = document.createElement('button')
+                    deleteProduct.id='bt-delete'
+
+                    let trashImg = document.createElement('img')
+
+                    trashImg.src='../Home/trash.png'
+                    productDiv.classList.add('list')
+                    deleteProduct.classList.add('trash')
+
+                    productDiv.appendChild(produtoName)
+                    productDiv.appendChild(produtoPrice)
+                    productDiv.appendChild(deleteProduct)
+                    deleteProduct.appendChild(trashImg)
+
+                    containerList.appendChild(productDiv)
+                })
+            </script>
+        </div>
     </div>
+    <script src="./scripts.js"></script>
 </body>
 
 </html>
