@@ -141,7 +141,7 @@ body {
     border-radius: 10px;
     padding: 20px 10px;
     width: 21%;
-    height: 50%;
+    height: 57%;
 
     span {
         position: absolute;
@@ -178,4 +178,16 @@ form {
     padding-left: 10px;
     width: 70%;
     height: 25px;
+}
+.bt-delete{
+ background: none;
+ border: none;
+ cursor: pointer;
+}
+.legenda{
+display: flex;
+gap: 135px;
+width: 43%;
+color: #ffffff;
+justify-content: space-between  ;
 }

@@ -1,5 +1,4 @@
 const addButton = document.getElementById('add-bt')
-const deleteButton = document.querySelector('#bt-delete')
 
 
 function newProduct() {
@@ -22,6 +21,7 @@ function validationForm() {
     let name = document.getElementById("name").value
     let price = document.getElementById("price").value
     let category = document.getElementById("select").value
+    let qntd = document.getElementById("qntd").value
 
     if (!name) {
         alert("Preencha com o nome do produto!")
@@ -35,25 +35,31 @@ function validationForm() {
         alert("Selecione uma categoria!")
         return false
     }
-    saveProduct({ name, price, category })
+    else if (!qntd) {
+        alert("Digite a quantidade!")
+        return false
+    }
+    saveProduct({ name, price, category,qntd})
     return true
 }
 
-function deleteProduct(product) {
-    
-}
 
-deleteButton.addEventListener('click', function(){
-    let parentDiv = this.parentNode; // 'this' se refere ao botão clicado
-    let productName = parentDiv.querySelector('#nameP').innerHTML;
+document.addEventListener('click', function (event) {
+    if (event.target.classList.contains('bt-delete') || event.target.closest('.bt-delete')) {
+        let button = event.target.closest('.bt-delete');
+        let parentDiv = button.parentNode; // 'this' se refere ao botão clicado
+        let productName = parentDiv.querySelector('.nameP').textContent;
+       
 
-    let produtos = JSON.parse(localStorage.getItem('produtos')) || [];
+        let produtos = JSON.parse(localStorage.getItem('produtos')) || [];
+        let productD = produtos.find(p => p.name === productName)
 
-    let productD = produtos.find(p => p.name === productName)
+        if (productD) {
+            produtos = produtos.filter(p => p !== productD)  
 
-    if (productD) {
-        produtos = produtos.filter(p => p !== productD)
+        }
+
+        localStorage.setItem('produtos', JSON.stringify(produtos))
+        location.reload()
     }
-    localStorage.setItem('produtos', JSON.stringify(produtos))
-    location.reload()
-},deleteProduct)
+})

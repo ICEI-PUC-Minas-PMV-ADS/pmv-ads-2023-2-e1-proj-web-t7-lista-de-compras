@@ -26,6 +26,9 @@
                 <label>Preço Unitário:</label>
                 <input id="price" step="0.01" pattern="\d+(\.\d{1,2})?" type="number" placeholder="R$ 3,00" min="0"
                     required>
+                    <label>Quantidade:</label>
+                <input id="qntd" step="1" pattern="\d+(\.\d{1,2})?" type="number" placeholder="Adicione a quantidade" min="0"
+                    required>
                 <select id="select" class="cat">
                     <option value="" disabled selected>Categoria</option>
                     <option value="Verdura">Verdura</option>
@@ -52,6 +55,12 @@
             <button class="bt-lupa"><img id="lupa" src="./lupa.png" /></button>
         </div>
         <div class="div-list">
+            <div class="legenda">
+                <p>Nome:</p>
+                <p>Preço:</p>
+                <p>Quantidade:</p>
+                <p></p>
+            </div>
             <script>
                 const productList = JSON.parse(localStorage.getItem('produtos'))
 
@@ -62,23 +71,29 @@
 
                     let produtoName = document.createElement('p');
                     produtoName.innerHTML = product.name
-                    produtoName.id = 'nameP'
+                    produtoName.classList.add('nameP')
 
                     let produtoPrice = document.createElement('p');
                     produtoPrice.innerHTML = `R$ ${product.price}`
 
+                    let quantity = document.createElement('p')
+                    quantity.innerHTML = product.qntd
+
                     let deleteProduct = document.createElement('button')
-                    deleteProduct.id='bt-delete'
+                    deleteProduct.classList.add('bt-delete')
 
                     let trashImg = document.createElement('img')
+                    trashImg.classList.add('imgTrash')
 
-                    trashImg.src='../Home/trash.png'
+                    trashImg.src = '../Home/trash.png'
                     productDiv.classList.add('list')
-                    deleteProduct.classList.add('trash')
+
 
                     productDiv.appendChild(produtoName)
                     productDiv.appendChild(produtoPrice)
+                    productDiv.appendChild(quantity)
                     productDiv.appendChild(deleteProduct)
+                    
                     deleteProduct.appendChild(trashImg)
 
                     containerList.appendChild(productDiv)
