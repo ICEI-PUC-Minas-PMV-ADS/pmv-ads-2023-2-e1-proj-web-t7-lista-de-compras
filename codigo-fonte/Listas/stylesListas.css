@@ -186,7 +186,6 @@ form {
 }
 .legenda{
 display: flex;
-gap: 135px;
 width: 43%;
 color: #ffffff;
 justify-content: space-between  ;

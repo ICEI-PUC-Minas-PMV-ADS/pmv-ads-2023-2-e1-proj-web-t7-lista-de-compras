@@ -10,7 +10,7 @@
 
 <body>
     <div class="head">
-        <button class="bt">Consultar Saldo</button>
+        <button class="bt" id="balance" onclick="balance()">Consultar Saldo</button>
         <img id="logo" src="./logo.png" />
         <button class="bt">Finalizar Compra</button>
     </div>
@@ -26,9 +26,9 @@
                 <label>Preço Unitário:</label>
                 <input id="price" step="0.01" pattern="\d+(\.\d{1,2})?" type="number" placeholder="R$ 3,00" min="0"
                     required>
-                    <label>Quantidade:</label>
-                <input id="qntd" step="1" pattern="\d+(\.\d{1,2})?" type="number" placeholder="Adicione a quantidade" min="0"
-                    required>
+                <label>Quantidade:</label>
+                <input id="qntd" step="1" pattern="\d+(\.\d{1,2})?" type="number" placeholder="Adicione a quantidade"
+                    min="0" required>
                 <select id="select" class="cat">
                     <option value="" disabled selected>Categoria</option>
                     <option value="Verdura">Verdura</option>
@@ -43,8 +43,8 @@
             </form>
         </div>
         <div class="div-itens">
-            <input class="filtro-nome" />
-            <select class="categorias">
+            <input class="filtro-nome" type="text" id="filtroN" />
+            <select class="categorias" id="filtroC">
                 <option value="" disabled selected>Categorias</option>"
                 <option>Verdura</option>
                 <option>Higiene</option>
@@ -52,7 +52,7 @@
                 <option>Fruta</option>
                 <option>Bebidas</option>
             </select>
-            <button class="bt-lupa"><img id="lupa" src="./lupa.png" /></button>
+            <button class="bt-lupa" onclick="filterProd()"><img id="lupa" src="./lupa.png" /></button>
         </div>
         <div class="div-list">
             <div class="legenda">
@@ -62,42 +62,67 @@
                 <p></p>
             </div>
             <script>
-                const productList = JSON.parse(localStorage.getItem('produtos'))
+                const filtroC = document.getElementById('filtroC') //chama o elemento com ID definido
+                const filtroN = document.getElementById('filtroN')//chama o elemento com ID definido
 
-                let containerList = document.getElementsByClassName("div-list")[0]
+                let productList = JSON.parse(localStorage.getItem('produtos')) // pega os itens salvos no localStorage e salva na variavel productList
 
-                productList.forEach(function (product) {
-                    let productDiv = document.createElement('div')
+                function renderProducts(products) {
 
-                    let produtoName = document.createElement('p');
-                    produtoName.innerHTML = product.name
-                    produtoName.classList.add('nameP')
+                    let containerList = document.getElementsByClassName("div-list")[0] //chama a div que tem a class definida
+                    containerList.innerHTML = ''; // limpa tudo que esta na div para poder atualizar quando filtrar
 
-                    let produtoPrice = document.createElement('p');
-                    produtoPrice.innerHTML = `R$ ${product.price}`
+                    productList.forEach(function (product) { // metodo forEach percorre o array de productList que foi salvo mais acima
+                        let productDiv = document.createElement('div') // cria um elemento na DOM(uma div)
 
-                    let quantity = document.createElement('p')
-                    quantity.innerHTML = product.qntd
+                        let produtoName = document.createElement('p'); // cria um elemento na DOM(um parágrafo)
+                        produtoName.innerHTML = product.name // o innerHTML faz uma troca ou acrescenta um valor a alguma tag,aqui ele passa o valor de product.name para dentro do 'p' criado
+                        produtoName.classList.add('nameP') // adiciona uma class ao 'p' criado
 
-                    let deleteProduct = document.createElement('button')
-                    deleteProduct.classList.add('bt-delete')
+                        let produtoPrice = document.createElement('p'); 
+                        produtoPrice.innerHTML = `R$ ${product.price}`
 
-                    let trashImg = document.createElement('img')
-                    trashImg.classList.add('imgTrash')
+                        let quantity = document.createElement('p') 
+                        quantity.innerHTML = product.qntd
 
-                    trashImg.src = '../Home/trash.png'
-                    productDiv.classList.add('list')
+                        let deleteProduct = document.createElement('button') // cria um elemento na DOM(um botão)
+                        deleteProduct.classList.add('bt-delete') 
+
+                        let trashImg = document.createElement('img') // cria um elemento na DOM(uma imagem)
+                        trashImg.classList.add('imgTrash')
+
+                        trashImg.src = '../Home/trash.png' // adiciona a propriedade de src a imagem
+                        productDiv.classList.add('list')
 
 
-                    productDiv.appendChild(produtoName)
-                    productDiv.appendChild(produtoPrice)
-                    productDiv.appendChild(quantity)
-                    productDiv.appendChild(deleteProduct)
-                    
-                    deleteProduct.appendChild(trashImg)
+                        productDiv.appendChild(produtoName)  // o appendChild adiciona um filho ao elemento pai,no caso o elemento pai é a productDiv que foi criada acima
+                        productDiv.appendChild(produtoPrice)
+                        productDiv.appendChild(quantity)
+                        productDiv.appendChild(deleteProduct)
 
-                    containerList.appendChild(productDiv)
+                        deleteProduct.appendChild(trashImg)
+
+                        containerList.appendChild(productDiv)
+                    })
+                }
+                function filterProd() { //funcão para filtrar os produtos por categoria
+
+                    let produtos = JSON.parse(localStorage.getItem('produtos')) || []; //busca os produtos no localStorage
+                    let filteredProd = produtos.filter((prod) => prod.category === filtroC.value) // percorre o array de produtos e retorna o array com todos os itens que tem a categoria igual a categoria escolhida no select
+                    productList = filteredProd //salva esse array filtrado na variavel productList
+                    renderProducts(productList) //chama a função de renderização e passa como parametro o array de produtos que acabou de ser modificado
+                }
+
+                filtroN.addEventListener('change', function () {
+                    let prodFilterName = JSON.parse(localStorage.getItem('produtos')) || [];
+                    let filterProd = prodFilterName.filter((prod) => prod.name === filtroN.value)
+                    productList = filterProd
+                    renderProducts(productList)
                 })
+
+
+
+                renderProducts(productList) // ao iniciar a pagina executa a função passando o productList original com todos os itens sem filtros
             </script>
         </div>
     </div>
