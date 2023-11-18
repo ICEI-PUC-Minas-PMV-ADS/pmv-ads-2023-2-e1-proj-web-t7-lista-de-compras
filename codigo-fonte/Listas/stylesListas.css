@@ -184,9 +184,3 @@ form {
  border: none;
  cursor: pointer;
 }
-.legenda{
-display: flex;
-width: 43%;
-color: #ffffff;
-justify-content: space-between  ;
-}

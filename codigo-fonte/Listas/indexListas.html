@@ -39,28 +39,24 @@
                     <option value="Doces">Doces e Guloseimas</option>
                     <option value="Produto de Limpeza">Produtos de Limpeza</option>
                 </select>
-                <button type="submit" class="bt" onclick="validationForm()">Salvar</button>
+                <button type="submit" class="bt" style="width: 80%;" onclick="validationForm()">Salvar</button>
             </form>
         </div>
         <div class="div-itens">
             <input class="filtro-nome" type="text" id="filtroN" />
             <select class="categorias" id="filtroC">
                 <option value="" disabled selected>Categorias</option>"
-                <option>Verdura</option>
-                <option>Higiene</option>
-                <option>Carne</option>
-                <option>Fruta</option>
-                <option>Bebidas</option>
+                <option value="Verdura">Verdura</option>
+                <option value="Higiene">Higiene</option>
+                <option value="Carne">Carne</option>
+                <option value="Fruta">Fruta</option>
+                <option value="Bebida">Bebidas</option>
+                <option value="Doces">Doces e Guloseimas</option>
+                <option value="Produto de Limpeza">Produtos de Limpeza</option>
             </select>
             <button class="bt-lupa" onclick="filterProd()"><img id="lupa" src="./lupa.png" /></button>
         </div>
         <div class="div-list">
-            <div class="legenda">
-                <p>Nome:</p>
-                <p>Preço:</p>
-                <p>Quantidade:</p>
-                <p></p>
-            </div>
             <script>
                 const filtroC = document.getElementById('filtroC') //chama o elemento com ID definido
                 const filtroN = document.getElementById('filtroN')//chama o elemento com ID definido
@@ -83,7 +79,7 @@
                         produtoPrice.innerHTML = `R$ ${product.price}`
 
                         let quantity = document.createElement('p') 
-                        quantity.innerHTML = product.qntd
+                        quantity.innerHTML = `Qtd: ${product.qntd}`
 
                         let deleteProduct = document.createElement('button') // cria um elemento na DOM(um botão)
                         deleteProduct.classList.add('bt-delete') 
@@ -106,16 +102,15 @@
                     })
                 }
                 function filterProd() { //funcão para filtrar os produtos por categoria
-
                     let produtos = JSON.parse(localStorage.getItem('produtos')) || []; //busca os produtos no localStorage
                     let filteredProd = produtos.filter((prod) => prod.category === filtroC.value) // percorre o array de produtos e retorna o array com todos os itens que tem a categoria igual a categoria escolhida no select
                     productList = filteredProd //salva esse array filtrado na variavel productList
                     renderProducts(productList) //chama a função de renderização e passa como parametro o array de produtos que acabou de ser modificado
                 }
 
-                filtroN.addEventListener('change', function () {
+                filtroN.addEventListener('input', function () {
                     let prodFilterName = JSON.parse(localStorage.getItem('produtos')) || [];
-                    let filterProd = prodFilterName.filter((prod) => prod.name === filtroN.value)
+                    let filterProd = prodFilterName.filter((prod) => prod.name.includes(filtroN.value));
                     productList = filterProd
                     renderProducts(productList)
                 })
