@@ -5,16 +5,15 @@ body {
 }
 
 .header {
-    background: #000000;
-    padding: 25px 60px 25px 60px;
+    background: black;
+    height: 23%;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    height: 15%;
+    align-items: flex-start;
+    padding: 16px;
     color: #ffffff;
-    flex-wrap: wrap;
-    font-size: 20px;
-    margin: 0; 
+    font-size: 15px;
+
 
     img{
         width: 110px;
@@ -35,8 +34,8 @@ body {
     justify-content: center;
     width: 120px;
     padding: 15px 20px;
-    height: 43%;
-    font-size: 17px;
+    height: 2.5rem;
+    font-size: 15px;
 }
 .bt:hover{ 
     opacity: 0.8
@@ -83,4 +82,21 @@ body {
 p{
     font-size: 17px;
 }
+}
+
+#logo {
+    width: 14%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+@media screen and (max-width:810px) {
+    .header {
+        height: 23%;
+    }
+    #logo{
+        width: 26%;
+        height: 90%;
+        margin-top: 12px;
+    }
 }
