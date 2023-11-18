@@ -179,8 +179,58 @@ form {
     width: 70%;
     height: 25px;
 }
-.bt-delete{
- background: none;
- border: none;
- cursor: pointer;
+
+.bt-delete {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+@media screen and (max-width:810px) {
+
+    #formulario {
+        width: 40%;
+    }
+    #logo{
+        width: 26%;
+        height: 90%;
+        margin-top: 12px;
+    }
+    #filtroC{
+        width: 23%;
+    }
+    .list{
+        width: 70%;
+    }
+
+}
+@media screen and (max-width:480px) {
+
+    #formulario {
+        width: 55%;
+    }
+
+    #logo {
+        width: 30%;
+    }
+
+    .head {
+        height: 15%;
+    }
+
+    .head button {
+        font-size: 12px;
+        width: 20%;
+    }
+    #add-bt{
+        width: 15rem !important
+    }
+    #filtroC{
+        width: 25%;
+    }
+    .list{
+        width: 70%;
+    }
 }
