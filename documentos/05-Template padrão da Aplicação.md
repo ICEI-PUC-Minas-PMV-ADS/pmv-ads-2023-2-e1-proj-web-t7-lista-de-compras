@@ -8,6 +8,6 @@ As páginas terão como elementos padrões o menu de navegação e o header alé
     Font-size: 16px, 17px e 20px.
 
 <figure> 
-  <img src="/documentos/img/layout.jpg"
+  <img src="/documentos/img/layoutP.jpg"
     <figcaption>Figura 1 - Layout Padrão</figcaption>
 </figure> 
