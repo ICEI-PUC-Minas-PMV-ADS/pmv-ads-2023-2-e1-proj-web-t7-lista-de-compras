@@ -15,17 +15,17 @@ RF-02:O sistema deve permitir adicionar produtos a lista
 
 #### Artefatos da funcionalidade
 
-indexListas.html
-stylesListas.css
-scripts.js
+indexListas.html<br/>
+stylesListas.css<br/>
+scripts.js<br/>
 
 
 #### Instruções de acesso
 
-1.Abra um navegador de Internet e informe a seguinte URL: https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2023-2-e1-proj-web-t7-lista-de-compras/codigo-fonte/Home/indexHome.html 
-2.Ao criar uma nova lista e definir o valor limite para ela,você poderá acessa-lá clicando no botão indicado com o nome da lista
-3.Na página da lista ao clicar no botão "Adicionar Produto" será aberto um formulário para preenchimento de dados
-4.Ao terminar de preencher os dados,clique em salvar para criar o produto na lista
+1.Abra um navegador de Internet e informe a seguinte URL: https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2023-2-e1-proj-web-t7-lista-de-compras/codigo-fonte/Home/indexHome.html<br/>
+2.Ao criar uma nova lista e definir o valor limite para ela,você poderá acessa-lá clicando no botão indicado com o nome da lista<br/>
+3.Na página da lista ao clicar no botão "Adicionar Produto" será aberto um formulário para preenchimento de dados<br/>
+4.Ao terminar de preencher os dados,clique em salvar para criar o produto na lista<br/>
 
 #### Responsável
 
@@ -47,17 +47,17 @@ RF-03:O sistema deve permitir filtrar os produtos
 
 #### Artefatos da funcionalidade
 
-indexListas.html
-stylesListas.css
-scripts.js
+indexListas.html<br/>
+stylesListas.css<br/>
+scripts.js<br/>
 
 
 #### Instruções de acesso
 
-1.Abra um navegador de Internet e informe a seguinte URL: https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2023-2-e1-proj-web-t7-lista-de-compras/codigo-fonte/Home/indexHome.html 
-2.Ao criar uma nova lista e definir o valor limite para ela,você poderá acessa-lá clicando no botão indicado com o nome da lista
-3.Na página da lista ao clicar no botão "Adicionar Produto" conseguirá realizar a adição
-4.Após criar alguns produtos,você poderá selecionar uma categoria para filtrar ou digitar o nome do produto existente na lista,para filtrar com o nome basta somente digitar as letras e filtrará,para filtrar por categoria será necessário apertar o botão de filtragem.
+1.Abra um navegador de Internet e informe a seguinte URL: https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2023-2-e1-proj-web-t7-lista-de-compras/codigo-fonte/Home/indexHome.html <br/>
+2.Ao criar uma nova lista e definir o valor limite para ela,você poderá acessa-lá clicando no botão indicado com o nome da lista<br/>
+3.Na página da lista ao clicar no botão "Adicionar Produto" conseguirá realizar a adição<br/>
+4.Após criar alguns produtos,você poderá selecionar uma categoria para filtrar ou digitar o nome do produto existente na lista,para filtrar com o nome basta somente digitar as letras e filtrará,para filtrar por categoria será necessário apertar o botão de filtragem.<br/>
 
 #### Responsável
 
@@ -79,17 +79,17 @@ RF-04:O sistema deve permitir adicionar a quantidade de um determinado produto
 
 #### Artefatos da funcionalidade
 
-indexListas.html
-stylesListas.css
-scripts.js
+indexListas.html<br/>
+stylesListas.css<br/>
+scripts.js<br/>
 
 
 #### Instruções de acesso
 
-1.Abra um navegador de Internet e informe a seguinte URL: https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2023-2-e1-proj-web-t7-lista-de-compras/codigo-fonte/Home/indexHome.html 
-2.Ao criar uma nova lista e definir o valor limite para ela,você poderá acessa-lá clicando no botão indicado com o nome da lista
-3.Na página da lista ao clicar no botão "Adicionar Produto" será aberto um formulário para preenchimento de dados
-4.Nesse formulário você precisa colocar a quantidade do produto que deseja adicionar
+1.Abra um navegador de Internet e informe a seguinte URL: https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2023-2-e1-proj-web-t7-lista-de-compras/codigo-fonte/Home/indexHome.html<br/> 
+2.Ao criar uma nova lista e definir o valor limite para ela,você poderá acessa-lá clicando no botão indicado com o nome da lista<br/>
+3.Na página da lista ao clicar no botão "Adicionar Produto" será aberto um formulário para preenchimento de dados<br/>
+4.Nesse formulário você precisa colocar a quantidade do produto que deseja adicionar<br/>
 
 #### Responsável
 
