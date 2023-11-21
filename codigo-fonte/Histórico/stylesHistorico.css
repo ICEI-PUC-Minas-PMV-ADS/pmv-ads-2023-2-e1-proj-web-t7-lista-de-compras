@@ -100,3 +100,12 @@ p{
         margin-top: 12px;
     }
 }
+
+@media screen and (max-width:480px) {
+    #logo {
+        width: 30%;
+    }
+    .header {
+        height: 15%;
+    }
+}
