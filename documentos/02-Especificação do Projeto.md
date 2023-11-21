@@ -40,6 +40,7 @@
 | RF-04   | O sistema deve permitir adicionar a quantidade de um determinado produto                    | Alta |
 | RF-05   | O sistema deve permitir consultar o saldo disponível de acordo com o valor limite                    | Média |
 | RF-06   | O usuário deve poder consultar um histórico recente de compras             | Baixa   |
+| RF-07   | O sistema deve permitir a navegação entre páginas             | Média  |
 
 ### Requisitos não Funcionais
 
