@@ -94,12 +94,30 @@ scripts.js<br/>
 #### Responsável
 
  Responsável:Pedro Nogueira
-
  
 
-> **Links Úteis**:
-> - [Trabalhando com HTML5 Local Storage e JSON](https://www.devmedia.com.br/trabalhando-com-html5-local-storage-e-json/29045)
-> - [JSON Tutorial](https://www.w3resource.com/JSON)
-> - [JSON - Introduction (W3Schools)](https://www.w3schools.com/js/js_json_intro.asp)
-> - [JSON Tutorial (TutorialsPoint)](https://www.tutorialspoint.com/json/index.htm)
+ ### Requisito atendido
+ 
+RF-07: O sistema deve permitir a navegação entre páginas.
 
+
+#### Artefatos da funcionalidade
+
+indexHistorico.html<br/>
+scriptsHistorico.js<br/>
+stylesHistorico.css<br/>
+indexHome.html<br/>
+scriptsHome.js<br/>
+stylesHome.css<br/>
+
+
+#### Instruções de acesso
+
+1.Abra um navegador de Internet e informe a seguinte URL: https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2023-2-e1-proj-web-t7-lista-de-compras/codigo-fonte/Home/indexHome.html
+2.Ao clicar no botão “Histórico" a página será redirecionada para a seguinte URL: https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2023-2-e1-proj-web-t7-lista-de-compras/codigo-fonte/Hist%C3%B3rico/indexHistorico.html
+3. Ao clicar no botão “Home” a página será redirecionada para a URL inicial.
+
+
+#### Responsável
+
+ Responsável: Isadora Lara.
