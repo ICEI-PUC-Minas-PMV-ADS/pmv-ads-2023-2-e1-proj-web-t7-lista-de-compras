@@ -113,8 +113,8 @@ stylesHome.css<br/>
 
 #### Instruções de acesso
 
-1.Abra um navegador de Internet e informe a seguinte URL: https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2023-2-e1-proj-web-t7-lista-de-compras/codigo-fonte/Home/indexHome.html
-2.Ao clicar no botão “Histórico" a página será redirecionada para a seguinte URL: https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2023-2-e1-proj-web-t7-lista-de-compras/codigo-fonte/Hist%C3%B3rico/indexHistorico.html
+1.Abra um navegador de Internet e informe a seguinte URL: https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2023-2-e1-proj-web-t7-lista-de-compras/codigo-fonte/Home/indexHome.html<br/>
+2.Ao clicar no botão “Histórico" a página será redirecionada para a seguinte URL: https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2023-2-e1-proj-web-t7-lista-de-compras/codigo-fonte/Hist%C3%B3rico/indexHistorico.html<br/>
 3. Ao clicar no botão “Home” a página será redirecionada para a URL inicial.
 
 
