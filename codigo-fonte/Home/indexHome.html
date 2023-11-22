@@ -27,36 +27,17 @@
     </div>
     <div class="second-container">
         <div class="div-button">
-            <button class="bt-add">Criar lista</button>
+            <button onclick="newlist()" class="bt-add">Criar lista</button>
         </div>
-        <div class="div-list">
-            <div class="list">
-                <p class="title-list">Lista 1</p>
-                <button class="trash"><img src="./trash.png" /></button>
-            </div>
-            <div class="list">
-                <p class="title-list">Lista 2</p>
-                <button class="trash"><img src="./trash.png" /></button>
-            </div>
-            <div class="list">
-                <p class="title-list">Lista 3</p>
-                <button class="trash"><img src="./trash.png" /></button>
-            </div>
-            <div class="list">
-                <p class="title-list">Lista 4</p>
-                <button class="trash"><img src="./trash.png" /></button>
-            </div>
-            <div class="list">
-                <p class="title-list">Lista 5</p>
-                <button class="trash"><img src="./trash.png" /></button>
-            </div>
-            <div class="list">
-                <p class="title-list">Lista 6</p>
-                <button class="trash"><img src="./trash.png" /></button>
-            </div>
-
-
-        </div>
+       <div id="formulario"> 
+        <form>
+        <label for="">Nome da lista</label>
+        <input type="text"> 
+        <label for="">Saldo máximo</label>
+        <input type="text">
+        <button class="bt-add" style="width: 90%;">Criar</button>
+     </form>
+       </div>
     </div>
     <script src="./scriptsHome.js"></script>
 </body>
