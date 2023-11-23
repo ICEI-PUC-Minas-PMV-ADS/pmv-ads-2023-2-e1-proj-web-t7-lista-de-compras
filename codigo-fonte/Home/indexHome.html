@@ -31,11 +31,12 @@
         </div>
        <div id="formulario"> 
         <form>
-        <label for="">Nome da lista</label>
-        <input type="text"> 
-        <label for="">Saldo máximo</label>
-        <input type="text">
-        <button class="bt-add" style="width: 90%;">Criar</button>
+            <span onclick="closeForm()">X</span>
+        <label>Nome da lista:</label>
+        <input id="inputName" type="text" placeholder="Digite o nome da lista "> 
+        <label>Saldo máximo:</label>
+        <input  id="inputSaldo" type="number" placeholder="Digite o saldo máximo">
+        <button class="bt-add" style="width: 90%;" onclick="validation()">Criar</button>
      </form>
        </div>
     </div>
