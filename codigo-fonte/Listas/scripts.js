@@ -1,12 +1,6 @@
 const addButton = document.getElementById('add-bt')
 let formulario = document.getElementById("formulario")
 
-let currentId 
-document.addEventListener('DOMContentLoaded', function() {
-    const params = new URLSearchParams(window.location.search);
-    currentId = params.get('id');
-})
-
 function newProduct() { //função para chamar o formulário de adicionar produto 
     formulario.style.display = "block" // chama a variavel que contem o elemento HTML e muda o display do elemento para block,fazendo-o aparecer na tela
 }
