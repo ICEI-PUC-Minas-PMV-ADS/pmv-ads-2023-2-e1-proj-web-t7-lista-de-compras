@@ -14,6 +14,12 @@ function newProduct() { //função para chamar o formulário de adicionar produt
 function closeForm() {
     formulario.style.display = "none"  // chama a variavel que contem o elemento HTML e muda o display do elemento para none,fazendo-o desaparecer na tela
 }
+
+function saveProduct(product) { //função para salvar produto no localStorage,recebe como paramentro o produto a ser salvo
+    let produtos = JSON.parse(localStorage.getItem(`produtos${currentId}`)) || [];
+    produtos.push(product) // .push pega o produto que chega como parametro e joga dentro do array
+    localStorage.setItem(`produtos${currentId}`, JSON.stringify(produtos)) //salva no localStorage
+}
 function validationForm() { //valida os dados que o usuário envia no formulario
 
     let name = document.getElementById("name").value             
@@ -39,12 +45,6 @@ function validationForm() { //valida os dados que o usuário envia no formulario
     }
     saveProduct({name, price, category,qntd}) //se passar em todas as validações ele executa a função de salvar e passa os dados que vao ser salvas dentro de um objeto
     return true
-}
-
-function saveProduct(product) { //função para salvar produto no localStorage,recebe como paramentro o produto a ser salvo
-    let produtos = JSON.parse(localStorage.getItem(`produtos${currentId}`)) || [];
-    produtos.push(product) // .push pega o produto que chega como parametro e joga dentro do array
-    localStorage.setItem(`produtos${currentId}`, JSON.stringify(produtos)) //salva no localStorage
 }
 
 document.addEventListener('click', function (event) {  //captação de cliquer na tela e função para deletar produto da lista
