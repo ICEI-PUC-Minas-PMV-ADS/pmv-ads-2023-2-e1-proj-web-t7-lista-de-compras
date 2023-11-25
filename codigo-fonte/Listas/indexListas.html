@@ -59,25 +59,24 @@
         <div class="div-list">
             <script>
                 const params = new URLSearchParams(window.location.search);
-                id = params.get('id');
-                
+                const id = params.get('id');
+                const url = `https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2023-2-e1-proj-web-t7-lista-de-compras/codigo-fonte/Listas/indexListas.html?id=${id}`
 
-                const filtroC = document.getElementById('filtroC') //chama o elemento com ID definido
-                const filtroN = document.getElementById('filtroN')//chama o elemento com ID definido
-
-                let productList = JSON.parse(localStorage.getItem(`produtos${id}`))// pega os itens salvos no localStorage e salva na variavel productList
+                let productList = JSON.parse(localStorage.getItem(`produtos${id}`) || JSON.stringify([]))
+                const filtroC = document.getElementById('filtroC')
+                const filtroN = document.getElementById('filtroN')
 
                 function renderProducts(products) {
 
-                    let containerList = document.getElementsByClassName("div-list")[0] //chama a div que tem a class definida
-                    containerList.innerHTML = ''; // limpa tudo que esta na div para poder atualizar quando filtrar
+                    let containerList = document.getElementsByClassName("div-list")[0]
+                    containerList.innerHTML = '';
 
-                    productList.forEach(function (product) { // metodo forEach percorre o array de productList que foi salvo mais acima
-                        let productDiv = document.createElement('div') // cria um elemento na DOM(uma div)
+                    productList.forEach(function (product) {
+                        let productDiv = document.createElement('div')
 
-                        let produtoName = document.createElement('p'); // cria um elemento na DOM(um parágrafo)
-                        produtoName.innerHTML = product.name // o innerHTML faz uma troca ou acrescenta um valor a alguma tag,aqui ele passa o valor de product.name para dentro do 'p' criado
-                        produtoName.classList.add('nameP') // adiciona uma class ao 'p' criado
+                        let produtoName = document.createElement('p');
+                        produtoName.innerHTML = product.name
+                        produtoName.classList.add('nameP')
 
                         let produtoPrice = document.createElement('p');
                         produtoPrice.innerHTML = `R$ ${product.price}`
@@ -85,17 +84,17 @@
                         let quantity = document.createElement('p')
                         quantity.innerHTML = `Qtd: ${product.qntd}`
 
-                        let deleteProduct = document.createElement('button') // cria um elemento na DOM(um botão)
+                        let deleteProduct = document.createElement('button')
                         deleteProduct.classList.add('bt-delete')
 
-                        let trashImg = document.createElement('img') // cria um elemento na DOM(uma imagem)
+                        let trashImg = document.createElement('img')
                         trashImg.classList.add('imgTrash')
 
-                        trashImg.src = '../Home/trash.png' // adiciona a propriedade de src a imagem
+                        trashImg.src = '../Home/trash.png'
                         productDiv.classList.add('list')
 
 
-                        productDiv.appendChild(produtoName)  // o appendChild adiciona um filho ao elemento pai,no caso o elemento pai é a productDiv que foi criada acima
+                        productDiv.appendChild(produtoName)
                         productDiv.appendChild(produtoPrice)
                         productDiv.appendChild(quantity)
                         productDiv.appendChild(deleteProduct)
@@ -105,11 +104,11 @@
                         containerList.appendChild(productDiv)
                     })
                 }
-                function filterProd() { //funcão para filtrar os produtos por categoria
-                    let produtos = JSON.parse(localStorage.getItem(`produtos${id}`)) || []; //busca os produtos no localStorage
-                    let filteredProd = produtos.filter((prod) => prod.category === filtroC.value) // percorre o array de produtos e retorna o array com todos os itens que tem a categoria igual a categoria escolhida no select
-                    productList = filteredProd //salva esse array filtrado na variavel productList
-                    renderProducts(productList) //chama a função de renderização e passa como parametro o array de produtos que acabou de ser modificado
+                function filterProd() {
+                    let produtos = JSON.parse(localStorage.getItem(`produtos${id}`)) || [];
+                    let filteredProd = produtos.filter((prod) => prod.category === filtroC.value)
+                    productList = filteredProd
+                    renderProducts(productList)
                 }
 
                 filtroN.addEventListener('input', function () {
@@ -118,8 +117,82 @@
                     productList = filterProd
                     renderProducts(productList)
                 })
+                renderProducts(productList)
 
-                renderProducts(productList) // ao iniciar a pagina executa a função passando o productList original com todos os itens sem filtros
+                function saveProduct(product) {
+                    let produtos = JSON.parse(localStorage.getItem(`produtos${id}`)) || [];
+                    produtos.push(product)
+                    localStorage.setItem(`produtos${id}`, JSON.stringify(produtos))
+
+                }
+                function validationForm() {
+                    let name = document.getElementById("name").value
+                    let price = document.getElementById("price").value
+                    let category = document.getElementById("select").value
+                    let qntd = document.getElementById("qntd").value
+
+                    if (!name) {
+                        alert("Preencha com o nome do produto!")
+                        return false
+                    }
+                    else if (price < 0 || !price) {
+                        alert("O preço não pode ser menor que 0!")
+                        return false
+                    }
+                    else if (category === "") {
+                        alert("Selecione uma categoria!")
+                        return false
+                    }
+                    else if (!qntd) {
+                        alert("Digite a quantidade!")
+                        return false
+                    }
+                    saveProduct({ name, price, category, qntd })
+                    window.location.href = url
+                }
+
+                document.addEventListener('click', function (event) {
+                    if (event.target.classList.contains('bt-delete') || event.target.closest('.bt-delete')) {
+                        let button = event.target.closest('.bt-delete');
+                        let parentDiv = button.parentNode;
+                        let productName = parentDiv.querySelector('.nameP').textContent;
+
+
+                        let produtos = JSON.parse(localStorage.getItem(`produtos${id}`)) || [];
+                        let productD = produtos.find(p => p.name === productName)
+
+                        if (productD) {
+                            produtos = produtos.filter(p => p !== productD)
+
+                        }
+
+                        localStorage.setItem(`produtos${id}`, JSON.stringify(produtos))
+                        location.reload()
+                    }
+                })
+
+                function balance() {
+                    let lists = JSON.parse(localStorage.getItem('lists')) || [];
+                    let produtos = JSON.parse(localStorage.getItem(`produtos${id}`)) || [];
+
+                    const listAtual = lists.filter(l => l.id === id)
+
+                    const saldoTotal = produtos.reduce((acumulador, prod) => {
+                        return acumulador + (prod.price * prod.qntd);
+                    }, 0);
+
+                    const sub = listAtual[0].saldo - saldoTotal
+
+                    if (listAtual[0].saldo > saldoTotal) {
+                    return alert(`Você ainda não ultrapassou o limite dessa compra e possui R$${sub} de saldo`)
+                    }
+                    if (sub === 0) {
+                        return alert("Você alcançou o limite dessa compra!")
+                    }
+                    if (listAtual[0].saldo < saldoTotal) {
+                        return alert(`Você ultrapassou o limite dessa compra e o seu saldo é de R$${sub}`)
+                    }
+                }
             </script>
         </div>
     </div>
