@@ -76,5 +76,5 @@ function finalizarCompraBt() {
     const data = new Date();
     listaProdutos.unshift(`${data.getDate()}/${data.getMonth()+1}/${data.getFullYear()}`);
     localStorage.setItem('historicoProdutos', JSON.stringify(listaProdutos)); //Enviar a lista para a página de histórico
-    window.location.href = 'https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2023-2-e1-proj-web-t7-lista-de-compras/codigo-fonte/Home/indexHome.html' //Redirecionar para a página de histórico
+    window.location.href = 'https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2023-2-e1-proj-web-t7-lista-de-compras/codigo-fonte/Histórico/indexHistorico.html' //Redirecionar para a página de histórico
 };
