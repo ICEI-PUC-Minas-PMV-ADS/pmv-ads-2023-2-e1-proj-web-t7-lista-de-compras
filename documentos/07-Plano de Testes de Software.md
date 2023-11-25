@@ -1,20 +1,15 @@
 # Plano de Testes de Software
 
-[Apresente os cenários de testes a serem utilizados na realização dos testes da aplicação. Escolha cenários de testes que demonstrem os requisitos sendo atendidos. ]
+Pré-requisitos: [Especificação do Projeto](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t7-lista-de-compras/blob/main/documentos/02-Especifica%C3%A7%C3%A3o%20do%20Projeto.md), [Projeto de Interface](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t7-lista-de-compras/blob/main/documentos/04-Projeto%20de%20Interface.md)
 
-Os testes funcionais a serem realizados na aplicação são descritos a seguir. [Utilize a estrutura abaixo para cada caso de teste]
+Os requisitos para realização dos testes de software são:
 
-|Caso de Teste    | CT-X - Título Caso de Teste |
-|:---|:---|
-| Requisitos Associados | RF-X |
-| Objetivo do Teste | Descrição do objetivo do teste |
-| Passos | Indicar passos para a execução do teste |
-| Critérios de êxito | Indicar os critérios de êxito  |
-| Responsável pela elaborar do caso de Teste | Nome do integrante da equipe |
- 
-> **Links Úteis**:
-> - [IBM - Criação e Geração de Planos de Teste](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
-> -  [Teste de Software: Conceitos e tipos de testes](https://blog.onedaytesting.com.br/teste-de-software/)
-> - [Criação e Geração de Planos de Teste de Software](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
-> - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
-> - [UX Tools](https://uxdesign.cc/ux-user-research-and-user-testing-tools-2d339d379dc7)
+- Site publicado na internet;
+- Navegador da internet: Chrome.<br/>
+
+Os testes funcionais a serem realizados na aplicação estão descritos a seguir.
+
+|Caso de Teste    | Requisitos associados | Objetivo do teste | Passos | Critérios de êxito | Responsável|
+|:---|:---|:---|:---|:---|:---|
+| CT-01: Verificar a navegação entre as páginas Home e Histórico | - RF-07: O sistema deve permitir a navegação entre páginas| Verificar se os botões nas páginas Home e Histórico estão encaminhando corretamente para as páginas adequadas | 1. Acessar o navegador.<br/> 2. Informar o endereço do site.<br/> 3. Visualizar a página Home.<br/> 4. Clicar no botão Histórico.<br/> 5. Ser redirecionado para a página Histórico.<br/> 6. Clicar no botão Home.<br/> 7. Ser redirecionado para a página Home | Os dois botões devem encaminhar os usuários para as páginas descritas | Isadora Lara |
+
