@@ -15,7 +15,8 @@
     <div class="container-main">
         <img id="logo" src="./logo.png" />
         <div class="div-info">
-            <p>Deseja uma lista altamente eficaz para economizar tempo e dinheiro ? <br>Aqui você consegue além de listar
+            <p>Deseja uma lista altamente eficaz para economizar tempo e dinheiro ? <br>Aqui você consegue além de
+                listar
                 seus produtos:</p>
             <ul>
                 <li>Definir um limite de gastos antes da ida ao supermercado,</li>
@@ -29,16 +30,57 @@
         <div class="div-button">
             <button onclick="newlist()" class="bt-add">Criar lista</button>
         </div>
-       <div id="formulario"> 
-        <form>
-            <span onclick="closeForm()">X</span>
-        <label>Nome da lista:</label>
-        <input id="inputName" type="text" placeholder="Digite o nome da lista "> 
-        <label>Saldo máximo:</label>
-        <input  id="inputSaldo" type="number" placeholder="Digite o saldo máximo">
-        <button class="bt-add" style="width: 90%;" onclick="validation()">Criar</button>
-     </form>
-       </div>
+        <div id="formulario">
+            <form>
+                <span onclick="closeForm()">X</span>
+                <label>Nome da lista:</label>
+                <input id="inputName" type="text" placeholder="Digite o nome da lista ">
+                <label>Saldo máximo:</label>
+                <input id="inputSaldo" type="number" placeholder="Digite o saldo máximo">
+                <button class="bt-add" style="width: 90%;" onclick="validation()">Criar</button>
+            </form>
+        </div>
+        <div class="div-list">
+            <script>
+
+                let lists = JSON.parse(localStorage.getItem('lists'))
+
+                function renderList(lists) {
+                    let containerList = document.getElementsByClassName("div-list")[0]
+
+                    lists.forEach(function (list) {
+                        let listDiv = document.createElement('div')
+
+                        let listName = document.createElement('p');
+                        listName.innerHTML = list.nome
+                        listName.classList.add('nameL')
+
+                        let listId = document.createElement('p');
+                        listId.innerHTML = list.id
+                        listId.style.display ='none'
+
+
+                        let deleteProduct = document.createElement('button') 
+                        deleteProduct.classList.add('bt-delete')
+
+                        let trashImg = document.createElement('img')
+                        trashImg.classList.add('imgTrash')
+
+                        trashImg.src = '../Home/trash.png' 
+                        listDiv.classList.add('list')
+
+
+                        listDiv.appendChild(listName)
+                        listDiv.appendChild(listId)
+                        listDiv.appendChild(deleteProduct)
+                        deleteProduct.appendChild(trashImg)
+
+                        containerList.appendChild(listDiv)
+                    })
+                }
+                renderList(lists)
+            </script>
+        </div>
     </div>
     <script src="./scriptsHome.js"></script>
 </body>

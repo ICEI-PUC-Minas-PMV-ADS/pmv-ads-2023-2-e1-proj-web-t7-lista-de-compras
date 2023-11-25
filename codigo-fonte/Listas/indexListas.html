@@ -58,10 +58,14 @@
         </div>
         <div class="div-list">
             <script>
+                const params = new URLSearchParams(window.location.search);
+                id = params.get('id');
+                
+
                 const filtroC = document.getElementById('filtroC') //chama o elemento com ID definido
                 const filtroN = document.getElementById('filtroN')//chama o elemento com ID definido
 
-                let productList = JSON.parse(localStorage.getItem('produtos')) // pega os itens salvos no localStorage e salva na variavel productList
+                let productList = JSON.parse(localStorage.getItem(`produtos${id}`))// pega os itens salvos no localStorage e salva na variavel productList
 
                 function renderProducts(products) {
 
@@ -75,14 +79,14 @@
                         produtoName.innerHTML = product.name // o innerHTML faz uma troca ou acrescenta um valor a alguma tag,aqui ele passa o valor de product.name para dentro do 'p' criado
                         produtoName.classList.add('nameP') // adiciona uma class ao 'p' criado
 
-                        let produtoPrice = document.createElement('p'); 
+                        let produtoPrice = document.createElement('p');
                         produtoPrice.innerHTML = `R$ ${product.price}`
 
-                        let quantity = document.createElement('p') 
+                        let quantity = document.createElement('p')
                         quantity.innerHTML = `Qtd: ${product.qntd}`
 
                         let deleteProduct = document.createElement('button') // cria um elemento na DOM(um botão)
-                        deleteProduct.classList.add('bt-delete') 
+                        deleteProduct.classList.add('bt-delete')
 
                         let trashImg = document.createElement('img') // cria um elemento na DOM(uma imagem)
                         trashImg.classList.add('imgTrash')
@@ -102,20 +106,18 @@
                     })
                 }
                 function filterProd() { //funcão para filtrar os produtos por categoria
-                    let produtos = JSON.parse(localStorage.getItem('produtos')) || []; //busca os produtos no localStorage
+                    let produtos = JSON.parse(localStorage.getItem(`produtos${id}`)) || []; //busca os produtos no localStorage
                     let filteredProd = produtos.filter((prod) => prod.category === filtroC.value) // percorre o array de produtos e retorna o array com todos os itens que tem a categoria igual a categoria escolhida no select
                     productList = filteredProd //salva esse array filtrado na variavel productList
                     renderProducts(productList) //chama a função de renderização e passa como parametro o array de produtos que acabou de ser modificado
                 }
 
                 filtroN.addEventListener('input', function () {
-                    let prodFilterName = JSON.parse(localStorage.getItem('produtos')) || [];
+                    let prodFilterName = JSON.parse(localStorage.getItem(`produtos${id}`)) || [];
                     let filterProd = prodFilterName.filter((prod) => prod.name.includes(filtroN.value));
                     productList = filterProd
                     renderProducts(productList)
                 })
-
-
 
                 renderProducts(productList) // ao iniciar a pagina executa a função passando o productList original com todos os itens sem filtros
             </script>
