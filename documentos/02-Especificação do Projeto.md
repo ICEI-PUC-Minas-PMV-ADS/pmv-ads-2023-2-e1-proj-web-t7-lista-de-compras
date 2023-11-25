@@ -34,7 +34,7 @@
 
 |ID       | Descrição                | Prioridade |
 |:---------:|:---------------------------------:|:----:|
-| RF-01   | O sistema deve permitir adicionar valor limite para gastos  | Média | 
+| RF-01   | O sistema deve permitir adicionar novas listas e valor limite para elas  | Média | 
 | RF-02   | O sistema deve permitir adicionar produtos a lista                    | Alta   |
 | RF-03   | O sistema deve permitir buscar os produtos pela sua categoria                 | Alta   |
 | RF-04   | O sistema deve permitir adicionar a quantidade de um determinado produto                    | Alta |
