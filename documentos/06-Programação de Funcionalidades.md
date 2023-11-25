@@ -94,9 +94,11 @@ scripts.js<br/>
 #### Responsável
 
  Responsável:Pedro Nogueira
- 
 
- ### Requisito atendido
+ 
+### Navegação entre páginas (RF-07)
+
+#### Requisito atendido
  
 RF-07: O sistema deve permitir a navegação entre páginas.
 
