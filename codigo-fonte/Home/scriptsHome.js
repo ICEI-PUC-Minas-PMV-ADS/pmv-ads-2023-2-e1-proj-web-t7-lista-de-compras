@@ -54,7 +54,7 @@ document.addEventListener('click', function (event) {
 document.addEventListener('click',function (event) {
   if(event.target.classList.contains('list')){
     const id = event.target.children[1].innerHTML
-    window.location.href = `Listas/indexListas.html?id=${id}`
+    window.location.href = `codigo-fonte/Listas/indexListas.html?id=${id}`
    //window.location.href = `https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2023-2-e1-proj-web-t7-lista-de-compras/codigo-fonte/Listas/indexListas.html?id=${id}`
   }
 })
