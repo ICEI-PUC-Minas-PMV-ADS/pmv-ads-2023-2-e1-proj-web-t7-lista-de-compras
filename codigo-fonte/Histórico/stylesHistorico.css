@@ -46,9 +46,7 @@ body {
 
 .campos-principais {
     display: flex;
-    gap: 7rem;
     padding: 30px;
-    justify-content: center;
     background: #242424;
     height: 100%;
 }
@@ -67,7 +65,7 @@ body {
     border: none;
 }
 .campos-listas{
-    width: 35%;
+    width: 80%;
 }
 .itens{
     background: #414040;
@@ -108,4 +106,19 @@ p{
     .header {
         height: 15%;
     }
+    .bt{
+        width: 100px;
+    }
+}
+@media screen and (max-width:400px) {
+    .header {
+        h1{
+            font-size: 25px;
+        }
+    }
+}
+@media screen and (min-width:810px) {
+  .campos-principais{
+    padding-left: 100px;
+  }
 }
