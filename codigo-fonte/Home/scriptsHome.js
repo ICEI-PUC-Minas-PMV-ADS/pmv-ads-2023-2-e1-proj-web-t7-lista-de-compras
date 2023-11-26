@@ -55,7 +55,6 @@ document.addEventListener('click',function (event) {
   if(event.target.classList.contains('list')){
     const id = event.target.children[1].textContent
     const condicional = id ? `?id=${id}` : ''
-    window.location.href = `http://127.0.0.1:5500/codigo-fonte/Listas/indexListas.html${condicional}`
-    //window.location.href = `https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2023-2-e1-proj-web-t7-lista-de-compras/codigo-fonte/Listas/indexListas.html${condicional}`
+    window.location.href = `https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2023-2-e1-proj-web-t7-lista-de-compras/codigo-fonte/Listas/indexListas.html${condicional}`
   }
 })
