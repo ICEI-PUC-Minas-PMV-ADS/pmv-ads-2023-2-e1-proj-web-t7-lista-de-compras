@@ -4,7 +4,7 @@ Pré-requisitos: [Projeto de Interface](https://github.com/ICEI-PUC-Minas-PMV-A
 
 Os testes funcionais realizados na aplicação web estão descritos a seguir.
 
-1. CT-01: Verificar a navegação entre as páginas Home e Histórico.
+### 1. CT-01: Verificar a navegação entre as páginas Home e Histórico.
 
 Responsável: Isadora Lara.
 
@@ -21,7 +21,7 @@ Ocorre o encaminhamento para a pagina Histórico. Assim, o usuário clica no bot
 Ocorre o encaminhamento para a página Home.
 
 
-2. CT-02: Verificar a criação e exclusão das listas.
+### 2. CT-02: Verificar a criação e exclusão das listas.
 
 Responsável: Samuel Filipe.
 
@@ -38,7 +38,8 @@ A nova lista é criada. Para apagá-la, basta clicar no botão da lixeira. Assim
 </figure>
 
 
-3. CT-03: Verificar a criação de produtos nas lista.
+
+### 3. CT-03: Verificar a criação de produtos nas lista.
 
 Responsável: Pedro Nogueira.
 
@@ -67,7 +68,8 @@ Caso os campos sejam informados incorretamente ou estejam em branco, um alerta �
 </figure>
 
 
-4. CT-04: Verificar a funcionalidade de filtrar os produtos por nome ou categoria.
+
+### 4. CT-04: Verificar a funcionalidade de filtrar os produtos por nome ou categoria.
 
 Responsável: Pedro Nogueira.
 
@@ -90,7 +92,8 @@ Para filtrar por categoria, basta selecionar qual é a desejada e clicar no bot�
 </figure>
 
 
-5. CT-05: Verificar a funcionalidade de consultar saldo.
+
+### 5. CT-05: Verificar a funcionalidade de consultar saldo.
 
 Responsável: Isadora Lara.
 
@@ -107,7 +110,8 @@ Caso o saldo seja ultrapassado, o sistema informa ao usuário o valor que precis
 </figure>
 
 
-6. CT-06: Verificar a funcionalidade de consultar o histórico recente.
+
+### 6. CT-06: Verificar a funcionalidade de consultar o histórico recente.
 
 Responsável: Vitor Galinari.
 
