@@ -6,9 +6,7 @@ buttonNav.addEventListener('click', function() {
 });
 
 document.addEventListener('DOMContentLoaded', function () {
-let historicoProdutos = JSON.parse(localStorage.getItem('historicoProdutos')) || []; //Recuperar a lista enviada
-console.log('bora', historicoProdutos);
-    console.log('cheguei aqui')
+    let historicoProdutos = JSON.parse(localStorage.getItem('historicoProdutos1')) || []; //Recuperar a lista enviada
     
     let dataFormatada = historicoProdutos[0];
     
@@ -29,7 +27,6 @@ console.log('bora', historicoProdutos);
     historicoProdutos.shift();
     
     historicoProdutos.forEach(function (produto) { // metodo forEach percorre o array de historicoProdutos que foi salvo mais acima
-        console.log(produto);
         
         let itensDiv = document.createElement('div');
         itensDiv.classList.add('itens');
@@ -41,5 +38,39 @@ console.log('bora', historicoProdutos);
         campoLista.appendChild(itensDiv);
 
         formularioHistorico.appendChild(campoLista);
+    });
+
+    let historicoProdutos2 = JSON.parse(localStorage.getItem('historicoProdutos2')) || []; //Recuperar a lista enviada
+    
+    let dataFormatada2 = historicoProdutos2[0];
+    
+    let formularioHistorico2 = document.getElementById('formularioHistorico2'); 
+
+    formularioHistorico2.innerHTML = '';
+
+    let campoLista2 = document.createElement('div');
+        campoLista2.classList.add('campos-listas');
+
+    let campoData2 = document.createElement('input');
+        campoData2.disabled = true;
+        campoData2.classList.add('campo-data');
+        campoData2.type = 'text';
+        campoData2.placeholder = dataFormatada2;
+        campoLista2.appendChild(campoData2);
+
+    historicoProdutos2.shift();
+    
+    historicoProdutos2.forEach(function (produto) { // metodo forEach percorre o array de historicoProdutos que foi salvo mais acima
+        
+        let itensDiv = document.createElement('div');
+        itensDiv.classList.add('itens');
+
+        let nomeProduto = document.createElement('p');
+        nomeProduto.innerHTML = produto.name; // Certifique-se de ter uma propriedade name no seu objeto de produto
+        itensDiv.appendChild(nomeProduto);
+
+        campoLista2.appendChild(itensDiv);
+
+        formularioHistorico2.appendChild(campoLista2);
     });
 });

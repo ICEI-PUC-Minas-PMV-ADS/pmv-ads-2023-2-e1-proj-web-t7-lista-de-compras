@@ -12,7 +12,7 @@
     <div class="head">
         <button class="bt" id="balance" onclick="balance()">Consultar Saldo</button>
         <img id="logo" src="./logo.png" />
-        <button class="bt" id="finalizarCompraBt" onclick="finalizarCompraBt()">Finalizar Compra</button>
+        <button class="bt" id="finalizarCompraBt" onclick="finalizarCompraBt(1)">Finalizar Compra</button>
     </div>
     <div class="div-principal">
         <button style="width: 20rem;height:3.5rem;font-size:18px;" class="bt" id="add-bt"
@@ -184,7 +184,7 @@
                     const sub = listAtual[0].saldo - saldoTotal
 
                     if (listAtual[0].saldo > saldoTotal) {
-                    return alert(`Você ainda não ultrapassou o limite dessa compra e possui R$${sub} de saldo`)
+                        return alert(`Você ainda não ultrapassou o limite dessa compra e possui R$${sub} de saldo`)
                     }
                     if (sub === 0) {
                         return alert("Você alcançou o limite dessa compra!")
@@ -192,7 +192,34 @@
                     if (listAtual[0].saldo < saldoTotal) {
                         return alert(`Você ultrapassou o limite dessa compra e o seu saldo é de R$${sub}`)
                     }
-                }
+                };
+
+                function finalizarCompraBt(number) {
+
+                    let storedTypeList = localStorage.getItem('typeList')
+
+                    let typeList = storedTypeList ? parseInt(storedTypeList) : 1
+
+                    if (number === 1) {
+                        typeList = (typeList === 1) ? 2 : 1;
+                        localStorage.setItem('typeList', typeList);
+                    }
+
+                    let listaProdutos = JSON.parse(localStorage.getItem(`produtos${ id }`)) || []; //Obter a lista atual
+                    const data = new Date();
+                    listaProdutos.unshift(`${data.getDate()}/${data.getMonth()+1}/${data.getFullYear()}`);
+                    if (typeList === 1) {
+                        localStorage.setItem('historicoProdutos1', JSON.stringify(listaProdutos)); //Enviar a lista para a página de histórico
+                        window.location.href = "http://127.0.0.1:5500/codigo-fonte/Hist%C3%B3rico/indexHistorico.html"
+                        //window.location.href = 'https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2023-2-e1-proj-web-t7-lista-de-compras/codigo-fonte/Histórico/indexHistorico.html' //Redirecionar para a página de histórico
+                    }
+                    if (typeList === 2) {
+                        localStorage.setItem('historicoProdutos2', JSON.stringify(listaProdutos)); //Enviar a lista para a página de histórico
+                        window.location.href = "http://127.0.0.1:5500/codigo-fonte/Hist%C3%B3rico/indexHistorico.html"
+                        //window.location.href = 'https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2023-2-e1-proj-web-t7-lista-de-compras/codigo-fonte/Histórico/indexHistorico.html' //Redirecionar para a página de histórico
+                    }
+                };
+
             </script>
         </div>
     </div>
