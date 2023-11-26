@@ -68,6 +68,21 @@ Evidências:
     <figcaption>Figura 3 - Issues Etapa 3.</figcaption>
 </figure> 
 
+**Sprint 4**
+
+- Programação de Funcionalidades 
+-Plano de Testes de Software
+-Registro de Testes de Software
+
+Planejamento: Dividir as funcionalidades por integrantes do grupo,planejar e dividir os testes de cada funcionalidade por integrante.
+
+Execução: Iniciamos com tranquilidade o desenvolvimento das funcionalidades,porém,percebemos alguns desafios/problemas durante o caminho,como por exemplo na funcionalidade de vizualizar o histórico em que tivemos que montar uma lógica para salvar duas listas e alterar as duas conforme o usuário fosse salvando mais,esse problema foi solucionado com sucesso,porém na funcionalidade de adicionar produtos em listas específicas, o parâmetro de id estava sumindo da url após salvar o produto(alterando a página),o que fazia com que o produto fosse salvo mas não fosse mostrado na tela,só era mostrado quando voltamos para a página anterior,tentamos corrigir de todas as formas,pedimos ajuda a outro que desenvolvedor para que ele pudesse nos auxiliar mas mesmo assim não conseguimos,no geral conseguimos finalizar a aplicação com sucesso!
+Evidências: 
+<figure> 
+  <img src="/documentos/img/sprint4.png"
+    <figcaption>Figura 4 - Issues Etapa 4.</figcaption>
+</figure> 
+
 ### Etiquetas
 <p>As tarefas são, ainda, etiquetadas em função da natureza da atividade e seguem o seguinte esquema de cores/categorias:</p>
 
@@ -82,7 +97,7 @@ Evidências:
 
 <figure> 
   <img styles="width:200px" src="/documentos/img/Etiquetas.png"
-    <figcaption>Figura 4 - Tela do esquema de cores e categorias.</figcaption>
+    <figcaption>Figura 5 - Tela do esquema de cores e categorias.</figcaption>
 </figure> 
   
 ### Ferramentas
