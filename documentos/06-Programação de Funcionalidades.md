@@ -123,3 +123,65 @@ stylesHome.css<br/>
 #### Responsável
 
  Responsável: Isadora Lara.
+
+
+### Adicionar nova lista e seu saldo (RF-01)
+
+<figure> 
+  <img src="/documentos/img/funcAddList.png"
+    <figcaption>Figura 4-Formulário para nova lista</figcaption>
+</figure> 
+
+
+#### Requisito atendido
+
+RF-01:O sistema deve permitir adicionar novas listas e valor limite para elas
+
+
+#### Artefatos da funcionalidade
+
+indexHome.html<br/>
+stylesHome.css<br/>
+scriptsHome.js<br/>
+
+
+#### Instruções de acesso
+
+1.Abra um navegador de Internet e informe a seguinte URL: https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2023-2-e1-proj-web-t7-lista-de-compras/codigo-fonte/Home/indexHome.html<br/>
+2.Clique no botão de criar lista<br/>
+3.Ao clicar será apresentado um formulário para preencher com o nome e o saldo daquela lista<br/>
+4.Ao terminar de preencher os dados,clique em criar para gerar uma nova lista<br/>
+
+#### Responsável
+
+ Responsável:Samuel Filipe
+
+### Consultar Saldo (RF-05)
+
+<figure> 
+  <img src="/documentos/img/funcConsult.png"
+    <figcaption>Figura 5-Tela da Lista</figcaption>
+</figure> 
+
+
+#### Requisito atendido
+
+RF-05:O O sistema deve permitir consultar o saldo disponível de acordo com o valor limite
+
+
+#### Artefatos da funcionalidade
+
+indexListas.html<br/>
+stylesListas.css<br/>
+scripts.js<br/>
+
+
+#### Instruções de acesso
+
+1.Abra um navegador de Internet e informe a seguinte URL: https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2023-2-e1-proj-web-t7-lista-de-compras/codigo-fonte/Home/indexHome.html<br/>
+2.Ao criar uma nova lista e definir o valor limite para ela,você poderá acessa-lá clicando no botão indicado com o nome da lista<br/>
+3.Na página da lista ao clicar no botão "Consultar Saldo" você será informado por uma caixa de alerta sobre a situação do saldo<br/>
+
+#### Responsável
+
+ Responsável:Samuel Filipe e Pedro Nogueira
