@@ -31,10 +31,18 @@ Usuário clica no botão "Criar lista” na página Home e escreve os dados requ
   <img src="/documentos/img/CT02a.png"
 </figure>
 
+<figure> 
+  <img src="/documentos/img/localStorageLista.jpg"
+</figure>
+
 A nova lista é criada. Para apagá-la, basta clicar no botão da lixeira. Assim, a lista é apagada corretamente.
 
 <figure> 
   <img src="/documentos/img/CT02b.png"
+</figure>
+
+<figure> 
+  <img src="/documentos/img/localStorageLixeira.jpg"
 </figure>
 
 
@@ -59,6 +67,10 @@ Assim, o produto aparece na lista.
 
 <figure> 
   <img src="/documentos/img/CT03c.png"
+</figure>
+
+<figure> 
+  <img src="/documentos/img/localStorageProduto.jpg"
 </figure>
 
 Caso os campos sejam informados incorretamente ou estejam em branco, um alerta é exibido na tela para alertar o usuário, afirmando o tipo de erro apresentado. 
@@ -125,4 +137,8 @@ O usuário será encaminhado para a página Histórico, onde a lista selecionada
 
 <figure> 
   <img src="/documentos/img/CT06b.png"
+</figure>
+
+<figure> 
+  <img src="/documentos/img/localStorageHistorico.jpg"
 </figure>
