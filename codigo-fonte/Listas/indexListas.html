@@ -11,7 +11,7 @@
 <body>
     <div class="head">
         <button class="bt" id="balance" onclick="balance()">Consultar Saldo</button>
-        <img id="logo" src="./logo.png" />
+        <img id="logo" src="./logo.png" onclick="navHome()" />
         <button class="bt" id="finalizarCompraBt" onclick="finalizarCompraBt(1)">Finalizar Compra</button>
     </div>
     <div class="div-principal">
@@ -205,9 +205,9 @@
                         localStorage.setItem('typeList', typeList);
                     }
 
-                    let listaProdutos = JSON.parse(localStorage.getItem(`produtos${ id }`)) || []; //Obter a lista atual
+                    let listaProdutos = JSON.parse(localStorage.getItem(`produtos${id}`)) || []; //Obter a lista atual
                     const data = new Date();
-                    listaProdutos.unshift(`${data.getDate()}/${data.getMonth()+1}/${data.getFullYear()}`);
+                    listaProdutos.unshift(`${data.getDate()}/${data.getMonth() + 1}/${data.getFullYear()}`);
                     if (typeList === 1) {
                         localStorage.setItem('historicoProdutos1', JSON.stringify(listaProdutos)); //Enviar a lista para a página de histórico
                         window.location.href = 'https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2023-2-e1-proj-web-t7-lista-de-compras/codigo-fonte/Histórico/indexHistorico.html' //Redirecionar para a página de histórico
@@ -216,6 +216,10 @@
                         localStorage.setItem('historicoProdutos2', JSON.stringify(listaProdutos)); //Enviar a lista para a página de histórico
                         window.location.href = 'https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2023-2-e1-proj-web-t7-lista-de-compras/codigo-fonte/Histórico/indexHistorico.html' //Redirecionar para a página de histórico
                     }
+                };
+
+                function navHome(){
+                    window.location.href = 'https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2023-2-e1-proj-web-t7-lista-de-compras/codigo-fonte/Home/indexHome.html'; 
                 };
 
             </script>
