@@ -83,6 +83,20 @@ Evidências:
     <figcaption>Figura 4 - Issues Etapa 4.</figcaption>
 </figure> 
 
+**Sprint 5**
+
+- Slide de aprentação 
+- Vídeo de apresentação
+
+  
+Execução: Durante uma reunião no discord e decidimos que Samuel, Isadora e Vitor ficariam responsaveis pelos os slides e que o Pedro gravaria o vídeo para apresentaçâo 
+
+Evidências: 
+<figure> 
+  <img src="/documentos/img/sprint5.png"
+    <figcaption>Figura 5 - Issues Etapa 5.</figcaption>
+</figure> 
+
 ### Etiquetas
 <p>As tarefas são, ainda, etiquetadas em função da natureza da atividade e seguem o seguinte esquema de cores/categorias:</p>
 
@@ -97,7 +111,7 @@ Evidências:
 
 <figure> 
   <img styles="width:200px" src="/documentos/img/Etiquetas.png"
-    <figcaption>Figura 5 - Tela do esquema de cores e categorias.</figcaption>
+    <figcaption>Figura 6 - Tela do esquema de cores e categorias.</figcaption>
 </figure> 
   
 ### Ferramentas
