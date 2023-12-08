@@ -20,7 +20,7 @@
 
         <div id="formulario">
             <span onclick="closeForm()">X</span>
-            <form>
+            <div class="form">
                 <label>Nome:</label>
                 <input id="name" type="text" placeholder="Suco de Caixinha" required>
                 <label>Preço Unitário:</label>
@@ -40,7 +40,7 @@
                     <option value="Produto de Limpeza">Produtos de Limpeza</option>
                 </select>
                 <button type="submit" class="bt" style="width: 80%;" onclick="validationForm()">Salvar</button>
-            </form>
+            </div>
         </div>
         <div class="div-itens">
             <input class="filtro-nome" type="text" id="filtroN" />
@@ -60,7 +60,6 @@
             <script>
                 const params = new URLSearchParams(window.location.search);
                 const id = params.get('id');
-                const url = `https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2023-2-e1-proj-web-t7-lista-de-compras/codigo-fonte/Listas/indexListas.html?id=${id}`
 
                 let productList = JSON.parse(localStorage.getItem(`produtos${id}`) || JSON.stringify([]))
                 const filtroC = document.getElementById('filtroC')
@@ -123,7 +122,7 @@
                     let produtos = JSON.parse(localStorage.getItem(`produtos${id}`)) || [];
                     produtos.push(product)
                     localStorage.setItem(`produtos${id}`, JSON.stringify(produtos))
-
+                    location.reload()
                 }
                 function validationForm() {
                     let name = document.getElementById("name").value
@@ -148,7 +147,6 @@
                         return false
                     }
                     saveProduct({ name, price, category, qntd })
-                    window.location.href = url
                 }
 
                 document.addEventListener('click', function (event) {
