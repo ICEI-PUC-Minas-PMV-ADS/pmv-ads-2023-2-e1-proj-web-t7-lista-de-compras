@@ -52,9 +52,8 @@ document.addEventListener('click', function (event) {
 })
 
 document.addEventListener('click', function (event) {
-  if (event.target.classList.contains('list') || event.target.closest('.list')) {
-    let button = event.target.closest('.list');
-    const id = button.children[1].textContent
+  if (event.target.classList.contains('list')) {
+    const id = event.target.children[1].textContent
     const condicional = id ? `?id=${id}` : ''
     window.location.href = `https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2023-2-e1-proj-web-t7-lista-de-compras/codigo-fonte/Listas/indexListas.html${condicional}`
   }
